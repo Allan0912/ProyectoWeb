@@ -1,6 +1,6 @@
 function mostrarCodigo() {
   
-  var opcionSeleccionada = document.querySelector('input[name="radios"]:checked').value;
+  var opcionSeleccionada = document.querySelector('input[name="tipusu"]:checked').value;
 
   var codigoElemento = document.getElementById("rellena");
 

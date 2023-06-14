@@ -6,7 +6,7 @@ $apellido=$_POST['apellido'];
 $correo=$_POST['correo'];
 $telefono=$_POST['telefono'];
 $documento=$_POST['documento'];
-$tusu=$_POST['tusu'];
+$tusu=$_POST['tipusu'];
 if($tusu == 1){
     $contraseña = $_POST['contraseña'];
 }else{
