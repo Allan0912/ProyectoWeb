@@ -9,8 +9,9 @@ function mostrarCodigo() {
 
     case "2":
       codigoElemento.innerHTML = `
+      
         <label>Crear Contraseña</label>
-        <input type="password" required>
+        <input type="password" name="contraseña" action="http://localhost/proyecto/conexion/registrar_Usuario.php" required>
       `;
 
       break;
