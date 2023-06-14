@@ -7,7 +7,7 @@ function mostrarCodigo() {
   // Lógica para agregar o eliminar la línea de código según la opción seleccionada
   switch (opcionSeleccionada) {
 
-    case 'desple2':
+    case "2":
       codigoElemento.innerHTML = `
         <label>Crear Contraseña</label>
         <input type="password" required>
@@ -15,7 +15,7 @@ function mostrarCodigo() {
 
       break;
 
-    case 'desple1':
+    case "1":
       codigoElemento.innerHTML = '';
 
       break;
