@@ -1,0 +1,166 @@
+.nombre{
+    color: yellow;
+}
+
+
+
+.ver{
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transform: 0.5s;
+}
+
+.ver:hover{
+    transform: 0.5s;
+    color:#3b5998;
+}
+
+#info{
+    color: rgb(255, 166, 0);
+}
+
+#info:hover{
+    color:white;
+    font-size: 17px;
+}
+
+#repuestos{
+    color: rgb(255, 166, 0);
+}
+
+#repuestos:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+    color: rgb(44, 44, 105);
+    font-size: 18px;
+}
+
+#contacto{
+    color: rgb(255, 166, 0);
+    font-size: 18px;
+}
+#contacto:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+    color: rgb(44, 44, 105);
+}
+
+#contenido{
+    color: rgb(255, 166, 0);
+}
+
+#contenido:hover{
+    color:white;
+    font-size: 17px;
+}
+.redes ul{
+    background-color: rgb(44, 44, 105);
+    border-top: solid rgba(0, 0, 0, 0.644) 5px;
+}
+
+
+/* Control de imagen */
+.drop-area{
+    border: 5px dashed #ddd;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drop-area.active{
+    background-color: #6969695e;
+    color: black;
+    border: 2px dashed #3b3b3b;
+}
+
+.drop-area h2{
+    font-size: 30px;
+    color: black;
+    font-weight:700;
+}
+
+.drop-area span{
+    font-size: 80px;
+    color: black;
+}
+
+.drop-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline:none;
+    background-color: #5256ad;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    margin: 20px;
+}
+/*Capa que se crea de forma denamica para cuando se suba un nuevo archivo */
+.file-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+#preview{
+    margin-top: 10px;
+}
+
+.status-text{
+    padding: 0 10px;
+}
+
+.success{
+    color: #52ad5a;
+}
+
+.failure{
+    color: #ff0000;
+}
+
+#editar{
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+#descripcion{
+    margin-top: 10px;
+    width: 570px;
+    font-size: 20px;
+    border: none;
+}
+
+#descripcion::placeholder{
+    font-size: 20px;
+}
+
+#descripcion:focus{
+    outline: none;
+
+}
+
+
+#icon{
+    font-size: 35px;
+}
+
+#clave{
+    font-size: 30px;
+    width: 600px;
+    border: none;
+    font-weight:bold;
+}
+
+#titulo:focus{
+    outline: none;
+    border: transparent;
+}
+
