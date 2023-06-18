@@ -26,13 +26,17 @@ for (let i = 0 ; i < repuestos.length; i++) {
 
   var parrafo = nuevorepuesto.querySelector('p');
 
+  var img = nuevorepuesto.querySelector ('img')
+
   titulo.textContent = repuestos[i].nombre;
 
   parrafo.textContent = repuestos[i].description;
 
-  contenedor.appendChild(nuevorepuesto);
-};
+  img.src = repuestos [i].img;
 
+  contenedor.appendChild(nuevorepuesto);
+  console.log(repuestos[i].img)
+};
 
 
 
