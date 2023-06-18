@@ -4,6 +4,7 @@ const dragText = dropArea.querySelector("h2");
 const button = dropArea.querySelector("button");
 const input = dropArea.querySelector("#input-file");
 const Agregar = document.querySelectorAll(".imgAgregar")
+
 let files;
 
 button.addEventListener('click', e => {
@@ -11,12 +12,16 @@ button.addEventListener('click', e => {
 });
 
 input.addEventListener('change', e => {
-    
-    files= this.files;
-    dropArea.classList.add("active");
-    //cada vez que cambie un archivo se colorea la zona y se aplica el drop-area. active de css
-    showFile(files);
-    dropArea.classList.remove('active')
+    var file = e.target.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (event) {
+        var imageUrl = event.target.result;
+        document.getElementById('imgpreview').src = event.target.result;
+        localStorage.setItem("imgtmp", imageUrl);
+      };
+
+      reader.readAsDataURL(file);
 });
 
 //mientras que haya elementos para arratrar se activara "dragover"
@@ -42,6 +47,9 @@ dropArea.addEventListener("drop", (e) =>{
     dragText.textContent ="Arrastra y suelta imagen";
 });
 
+
+
+//funcion para la validacion de archivos
 
 
 //funcion para la validacion de archivos
