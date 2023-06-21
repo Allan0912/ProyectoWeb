@@ -11,7 +11,7 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if ($filas>0) {
-    header("location:http://127.0.0.1/proyecto/html/Catalogo_inicio_sesion.html");
+    header("location:http://127.0.0.1/proyecto/html/Catalogo_inicio_sesion.php");
 }
 else{
     echo "<script>alert('Los datos no coinciden');window.history.go(-1);</script>";
