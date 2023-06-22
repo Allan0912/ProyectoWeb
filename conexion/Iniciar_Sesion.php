@@ -1,4 +1,9 @@
 <?php
+session_start();
+
+$_SESSION['usuario']=$_POST['usuario'];
+
+
 include('conexion.php'); //Utlizando la conexion del archivo 'conexion.php'
 
 $usuario=$_POST['usuario'];//metodo para recibir la informacion del formulario
