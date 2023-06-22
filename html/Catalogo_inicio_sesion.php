@@ -1,3 +1,13 @@
+<?php
+  session_start();
+  $varsesion = $_SESSION['usuario'];
+
+  if($varsesion==null || $varsesion=''){
+  
+    header("location:http://localhost/proyecto/html/Inicio_sesion_Admin.php");
+    die();
+  }
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,8 +55,8 @@
                     Agregar
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                    <li><a class="dropdown-item" href="../html/agregar_video.html" id="repuestos">Video</a></li> 
-                    <li><a class="dropdown-item" href="../html/Agrega_Repuesto.html" id="contacto">Repuesto</a></li>
+                    <li><a class="dropdown-item" href="../html/agregar_video.php" id="repuestos">Video</a></li> 
+                    <li><a class="dropdown-item" href="../html/Agrega_repuesto.php" id="contacto">Repuesto</a></li>
                   </ul>
               </li>
           </ul>
@@ -68,7 +78,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
                 <li><a class="dropdown-item" href="#" id="repuestos">Mi perfil</a></li> 
-                <li><a class="dropdown-item" href="../html/Inicio_sesion_Admin.html" id="contacto">Cerrar sesion</a></li>
+                <li><a class="dropdown-item" href="../conexion/Cerrar_Sesion.php" id="contacto">Cerrar sesion</a></li>
               </ul>
           </li>
         </ul>

@@ -43,8 +43,8 @@
                     Agregar
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                    <li><a class="dropdown-item" href="#" id="repuestos"">Video</a></li> 
-                    <li><a class="dropdown-item" href="#" id="contacto">Repuesto</a></li>
+                    <li><a class="dropdown-item" href="../html/agregar_video.php" id="repuestos"">Video</a></li> 
+                    <li><a class="dropdown-item" href="../html/Agrega_Repuesto.php" id="contacto">Repuesto</a></li>
                   </ul>
               </li>
             </ul>
@@ -54,8 +54,8 @@
                   Registrar
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                  <li><a class="dropdown-item" href="#" id="repuestos"">Usuario</a></li> 
-                  <li><a class="dropdown-item" href="#" id="contacto">Maquina</a></li>
+                  <li><a class="dropdown-item" href="../html/registrar_Usuario.php" id="repuestos"">Usuario</a></li> 
+                  <li><a class="dropdown-item" href="Registrar_maquina.php" id="contacto">Maquina</a></li>
                 </ul>
                 <li class="nav-item ms-4">
                   <a class="nav-link" id="info" href="/Inicio sesion admin actualizado/copiainterfaz.html">Iniciar sesion</a>
