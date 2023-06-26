@@ -66,8 +66,8 @@
                   Registrar
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                  <li><a class="dropdown-item" href="../html/registrar_Usuario.html" id="repuestos">Usuario</a></li> 
-                  <li><a class="dropdown-item" href="../html/Registrar_maquina.html" id="contacto">Maquina</a></li>
+                  <li><a class="dropdown-item" href="../html/registrar_Usuario.php" id="repuestos">Usuario</a></li> 
+                  <li><a class="dropdown-item" href="../html/Registrar_maquina.php" id="contacto">Maquina</a></li>
                 </ul>
             </li>
         </ul>
