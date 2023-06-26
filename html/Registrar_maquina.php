@@ -22,29 +22,29 @@
             <div class="imgcliente">
               <i class='bx bxs-analyse'></i>
             </div>
-            <form method="post">
+            <form method="post" action="http://localhost/proyecto/conexion/registrar_maquina.php">
               <div class="rellenar">
-                <input type="text" required  id='identificar'onkeyup="cambiarColor"/>
+                <input type="text" name="tipmaquina" required  id='identificar'onkeyup="cambiarColor"/>
                 <label for="rellenar">Tipo de maquina</label>
               </div>
 
               <div class="rellenar">
-                <input type="text" required />
+                <input type="text"name="marca" required />
                 <label>Marca</label>
               </div>
 
               <div class="rellenar">
-                <input type="text" required />
+                <input type="text" name="serial" required />
                 <label>No.Serial</label>
               </div>
 
               <div class="rellenar">
-                <input type="datetime-local"s style="color: rgba(255, 255, 255, 0.644);" required />
+                <input type="datetime-local"s style="color: rgba(255, 255, 255, 0.644);" name="fecha" required />
                 <label>Fecha de ingreso</label>
               </div>
 
               <div class="rellenar">
-                <textarea name="" id="ingreso" cols="30" rows="10"></textarea>
+                <textarea name="descripcion" id="ingreso" cols="30" rows="10"></textarea>
                 <label>Descripción de ingreso</label>
               </div>
 
