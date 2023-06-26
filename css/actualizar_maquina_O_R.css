@@ -1,17 +1,17 @@
 body{
-    background-image: url();
+    background-image: url(../imagenes/el-trabajo-de-soldador-2-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 108vh;
 }
 
 
 .formulario{
     position: absolute;
     margin-top: 20px;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 830px;
