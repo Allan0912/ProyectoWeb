@@ -60,7 +60,6 @@
         </div>
       </div>
     </div>
-    <script src="../index js del proyecto/registrar_maquina_orden.js"></script>
-
+    <script src="../indexJs/Actualizar_maquina_orden.js"></script>
   </body>
 </html>
