@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registrar Maquina</title>
+    <title>Actualizar maquina</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/Registrar_maquina_orden_servicio.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/png">
-
+    <link rel="stylesheet" type="text/css" href="../css/Registrar_maquina_orden_servicio.css">
   </head>
   <body>
     <div class="container">
@@ -18,7 +17,7 @@
           <div class="formulario">
             <img  src="../imagenes/logo.png" height="70" alt="">
             <p class="logo">Automaticación y mantenimiento</p>
-            <h1>Registro de maquina</h1>
+            <h1>Actualizaciones de maquina</h1>
             <div class="imgcliente">
               <i class='bx bxs-analyse'></i>
             </div>

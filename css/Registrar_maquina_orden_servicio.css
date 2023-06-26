@@ -1,10 +1,10 @@
 body{
-    background-image: url(../imagenes/el-trabajo-de-soldador-2-1.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
-    height: 108vh;
+    height: 100vh;
 }
 
 
@@ -14,7 +14,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 630px;
+    max-width: 830px;
     background-color: #161111a9;
     border-radius: 5px;
     height: 780px;
