@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orden de servicio</title>
+    <title>Historial de clientes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/Orden_de_servicio copy.css">
+    <link rel="stylesheet" href="../css/historial_de_clientes.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
@@ -31,7 +31,7 @@
                     </ul>
                 </li>
                 <li class="nav-item ms-4">
-                    <a class="nav-link" id="info" href="#">Orden de servicio</a>
+                    <a class="nav-link" id="info" href="#">Historial cliente</a>
                 </li>
             </ul>
 
@@ -74,18 +74,22 @@
       <table>
         <thead>
           <tr>
-            <th class="text-center">N°</th>
-            <th class="text-center">Orden de servicio</th>
+            <th>N° documento</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
             <th>Editar</th>
             <th>Eliminar</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>01</td>
-            <td id="orden_servicio">Nombre de la persona de la orden de servicio</td>
-            <td id="editar"><i class='bx bx-edit-alt'   id="icon_editar"></i></td>
-            <td id="eliminar"><i class='bx bx-message-square-x' id="icon_eliminar" ></i></td>
+            <td>110546950</td>
+            <td>Camilo</td>
+            <td>Martinez</td>
+            <td>CamiloM@gmail.com</td>
+            <td id="editar"><i class='bx bx-edit-alt'  id="icon_editar"></i></td>
+            <td id="eliminar"><i class='bx bx-message-square-x' id="icon_eliminar"></i></td>
           </tr>
         </tbody>
       </table>
