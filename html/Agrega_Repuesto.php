@@ -47,7 +47,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-3 ">
+            <ul class="navbar-nav mb-2 mb-lg-3 ">
 
                 <li class="nav-item dropdown">
 
@@ -69,17 +69,18 @@
 
                 </li>
 
-                <li class="nav-item ms-4">
-
-                    <a class="nav-link" id="info" href="#">Informacion de maquina</a>
-
             </ul>
-
-
-
-
-
-
+            <ul class="navbar-nav me-2 mb-2 mb-lg-3 mx-3 ">
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle " href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Historiales
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                    <li><a class="dropdown-item" href="../html/Ordenes_de_servicio.php" id="repuestos">Ordenes de servicio</a></li> 
+                    <li><a class="dropdown-item" href="../html/historial_de_clientes.php" id="contacto">Historial de clientes</a></li>
+                  </ul>
+              </li>
+            </ul>   
 
             <ul class="navbar-nav me-2 mb-2 mb-lg-3 ">
 
@@ -87,17 +88,15 @@
 
                   <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                    <i class='bx bx-plus'></i>
-
-                    Agregar
+                    Agregar repuestos
 
                   </a>
 
                   <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
 
-                    <li><a class="dropdown-item" href="agregar_video.php" id="repuestos"">Video</a></li> 
+                    <li><a class="dropdown-item" href="agregar_video.php" id="repuestos"">Agregar videos</a></li> 
 
-                    <li><a class="dropdown-item" href="../html/Agrega_Repuesto.php" id="contacto">Repuesto</a></li>
+                    <!--<li><a class="dropdown-item" href="../html/Agrega_Repuesto.php" id="contacto">Repuesto</a></li> -->
 
                   </ul>
 
@@ -123,15 +122,20 @@
 
                 </ul>
 
-                <li class="nav-item ms-4">
-
-                  <a class="nav-link" id="info" href="/Inicio sesion admin actualizado/copiainterfaz.html">Iniciar sesion</a>
-
-                </li>
-
               </li>
 
             </ul>
+            <ul class="navbar-nav  mb-2 mb-lg-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class='bx bx-user-circle' id="icon_user"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                <li><a class="dropdown-item" href="#" id="repuestos">Mi perfil</a></li> 
+                <li><a class="dropdown-item" href="../conexion/Cerrar_Sesion.php" id="contacto">Cerrar sesion</a></li>
+              </ul>
+           </li>
+          </ul>
 
           </div>
 

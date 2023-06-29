@@ -19,7 +19,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-3 ">
+            <ul class="navbar-nav mb-2 mb-lg-3 ">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Videos
@@ -30,11 +30,17 @@
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>
                 </li>
-                <li class="nav-item ms-4">
-                    <a class="nav-link" id="info" href="#">Orden de servicio</a>
-                </li>
             </ul>
-
+            <ul class="navbar-nav me-2 mb-2 mb-lg-3 mx-3 ">
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle " href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Orden de servicio
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                    <li><a class="dropdown-item" href="../html/historial_de_clientes.php" id="contacto">Historial de clientes</a></li>
+                  </ul>
+              </li>
+            </ul>   
 
             <ul class="navbar-nav me-2 mb-2 mb-lg-3 ">
               <li class="nav-item dropdown">
@@ -57,11 +63,19 @@
                   <li><a class="dropdown-item" href="../html/registra_U.html" id="repuestos"">Usuario</a></li> 
                   <li><a class="dropdown-item" href="../html/Registrar_maquina.html" id="contacto">Maquina</a></li>
                 </ul>
-                <li class="nav-item ms-4">
-                  <a class="nav-link" id="info" href="../html/Inicio_sesion_Admin.html">Iniciar sesion</a>
-                </li>
             </li>
-        </ul>
+          </ul>
+            <ul class="navbar-nav  mb-2 mb-lg-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class='bx bx-user-circle' id="icon_user"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                  <li><a class="dropdown-item" href="#" id="repuestos">Mi perfil</a></li> 
+                  <li><a class="dropdown-item" href="../conexion/Cerrar_Sesion.php" id="contacto">Cerrar sesion</a></li>
+                </ul>
+              </li>
+            </ul>
 
             <form class="d-flex ms-1 mb-2 mx-4">
               <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
@@ -70,6 +84,9 @@
           </div>
         </div>
       </nav>
+
+      <!---------------------------------Tabla----------------------------------------------------------------->
+  
     <div class="container">
       <table>
         <thead>

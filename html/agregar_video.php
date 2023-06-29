@@ -20,31 +20,37 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-3 ">
+            <ul class="navbar-nav  mb-2 mb-lg-3 ">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Videos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                      <li><a class="dropdown-item" href="#" id="repuestos"">Repuestos</a></li> 
+                      <li><a class="dropdown-item" href="../html/catalogo_visualizacion_cliente.php" id="repuestos"">Repuestos</a></li> 
                       <li><hr class="dropdown-divider bg-light"></li>
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>
                 </li>
-                <li class="nav-item ms-4">
-                    <a class="nav-link" id="info" href="#">Informacion de maquina</a>
             </ul>
-
+            <ul class="navbar-nav me-2 mb-2 mb-lg-3 mx-3 ">
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle " href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Historiales
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                    <li><a class="dropdown-item" href="../html/Ordenes_de_servicio.php" id="repuestos">Ordenes de servicio</a></li> 
+                    <li><a class="dropdown-item" href="../html/historial_de_clientes.php" id="contacto">Historial de clientes</a></li>
+                  </ul>
+              </li>
+            </ul>   
 
             <ul class="navbar-nav me-2 mb-2 mb-lg-3 ">
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class='bx bx-plus'></i>
-                    Agregar
+                    Agregar videos
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                    <li><a class="dropdown-item" href="../html/agregar_video.php" id="repuestos"">Video</a></li> 
-                    <li><a class="dropdown-item" href="../html/Agrega_Repuesto.php" id="contacto">Repuesto</a></li>
+                    <li><a class="dropdown-item" href="../html/Agrega_Repuesto.php" id="contacto"> Agregar repuesto</a></li>
                   </ul>
               </li>
             </ul>
@@ -57,12 +63,20 @@
                   <li><a class="dropdown-item" href="../html/registrar_Usuario.php" id="repuestos"">Usuario</a></li> 
                   <li><a class="dropdown-item" href="Registrar_maquina.php" id="contacto">Maquina</a></li>
                 </ul>
-                <li class="nav-item ms-4">
-                  <a class="nav-link" id="info" href="/Inicio sesion admin actualizado/copiainterfaz.html">Iniciar sesion</a>
-                </li>
               </li>
             </ul>
           </div>
+          <ul class="navbar-nav  mb-2 mb-lg-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ms-4" href="#" id="contenido" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class='bx bx-user-circle' id="icon_user"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
+                <li><a class="dropdown-item" href="#" id="repuestos">Mi perfil</a></li> 
+                <li><a class="dropdown-item" href="../conexion/Cerrar_Sesion.php" id="contacto">Cerrar sesion</a></li>
+              </ul>
+           </li>
+          </ul>
           <form class="d-flex justify-content-end mb-2 mx-4">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>

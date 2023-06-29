@@ -183,3 +183,6 @@
 #publicar_repuesto:active{
     border: solid 5px yellow;
 }
+#icon_user{
+    font-size: 40px;
+}

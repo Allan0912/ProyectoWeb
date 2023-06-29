@@ -228,6 +228,10 @@ th, td {
     background-color: #3b5998;
     transition: .5s;
 }
+
+#icon_user{
+    font-size: 40px;
+}
   /* Estilos para dispositivos móviles */
   @media (max-width: 768px) {
     th, td {
