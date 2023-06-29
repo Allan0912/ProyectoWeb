@@ -126,11 +126,6 @@ span{
     border-top: solid rgba(0, 0, 0, 0.644) 5px;
 }
 
-.container{
-    background-color: #00000075;
-    height: 500px;
-    width: auto;
-}
 
 #titulo-orden{
     color: rgb(255, 255, 255);
@@ -155,31 +150,95 @@ span{
     padding-left: 5px;
 }
 
-#orden{
-    background-color: yellow;
-    outline:none;
-    cursor:pointer;
-    height: 50px;
-    border: none;
-    transition: 0.5s;
-    padding-top: 10px;
-    margin-top: 3px;
-}
 
-#orden:hover{
-    background-color: rgb(255, 196, 0);
-    transition: 0.5s;
-    border-radius: 20px;
-}
 
 #icon{
-    font-size: 28px;
-    border: solid 3px white;
-}
-
-#icon:hover{
-    background-color: rgb(255, 196, 0);
-    transition: 0.5s;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
+
+.container{
+    background-color: #00000075;
+    max-height: auto;
+    width: auto;
+    border: solid 1px rgb(13, 26, 197);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+
+table{
+    font-size: 20px;
+    /*table-layout: fixed;
+    border-collapse: collapse;*/
+    margin-top: 20px;
+    border: solid 3px  rgb(255, 166, 0);
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+thead{
+    background-color: rgb(44, 44, 105);
+    color: rgb(255, 166, 0);
+    border-radius: 20px;
+    border: solid 3px  rgb(255, 166, 0);
+
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: solid 3px  rgb(255, 166, 0);
+
+}
+
+td{
+    padding: 20px;
+    border-bottom:  solid 3px  rgb(255, 166, 0);
+    border: solid 3px  rgb(255, 166, 0);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+ tbody #orden_servicio:hover{
+    background-color: yellow;
+    transition: .5s;
+}
+
+tbody #editar:hover{
+    background-color: #3b5998;
+    transition: .5s;
+
+}
+
+
+tbody #eliminar:hover{
+    background-color: rgb(189, 9, 9);
+    transition: .5s;
+
+}
+
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    th, td {
+      width:auto;
+    }
+    
+   
+  }
