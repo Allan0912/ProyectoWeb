@@ -133,7 +133,8 @@
 
 #descripcion{
     margin-top: 10px;
-    width: 570px;
+    width: 100%;
+    display: block;
     font-size: 20px;
     border: none;
 }
@@ -154,12 +155,22 @@
 
 #clave{
     font-size: 30px;
-    width: 600px;
+    width:100%;
     border: none;
     font-weight:bold;
 }
 
-#titulo:focus{
+.input_icon{
+    position: relative;
+}
+.input_icon #editar{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+#titulo, #clave:focus{
     outline: none;
     border: transparent;
 }
@@ -172,8 +183,7 @@
     border-radius: 10px;
     color: white;
     width: 100px;
-    position:  relative;
-    left: 80%;
+    float: right;
 }
 
 #publicar_repuesto:hover{
@@ -181,8 +191,30 @@
 }
 
 #publicar_repuesto:active{
-    border: solid 5px yellow;
+    border: solid 3px rgb(255, 166, 0);
 }
 #icon_user{
     font-size: 40px;
+}
+
+/* Media Queries*/
+
+/*pantallas pequeñas*/
+@media (max-width: 1000px){
+
+    #publicar_repuesto{
+        width: 30%;
+        float: left;
+    }
+    
+}
+@media (max-width: 800px){
+    #clave{
+        font-size: 1.5rem;
+    }
+    #publicar_repuesto{
+        width: 50%;
+        float: left;
+    }
+    
 }
