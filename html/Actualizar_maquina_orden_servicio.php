@@ -23,7 +23,7 @@
             </div>
             <form method="post">
               <div class="rellenar">
-                <input type="text" required  id='identificar'onkeyup="cambiarColor"/>
+                <input type="text" required  id='identificar'onkeyup="cambiarColor" autocomplete="off"/>
                 <label for="rellenar">Tipo de maquina</label>
               </div>
 
