@@ -27,14 +27,14 @@
                       Repuestos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                      <li><a class="dropdown-item" href="../html/catalogo_videos.html" id="repuestos"">videos</a></li> 
+                      <li><a class="dropdown-item" href="../html/catalogo_videos.php" id="repuestos"">videos</a></li> 
                       <li><hr class="dropdown-divider bg-light"></li>
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item ms-4">
-                    <a class="nav-link" id="info" href="../html/Inicio_sesion_cliente.html">Informacion de maquina</a>
+                    <a class="nav-link" id="info" href="../html/Inicio_sesion_cliente.php">Informacion de maquina</a>
                 </li>
             </ul>
           </div>

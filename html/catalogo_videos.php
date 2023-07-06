@@ -27,14 +27,14 @@
                       Videos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                      <li><a class="dropdown-item" href="../html/catalogo_visualizacion_cliente.html" id="repuestos"">Repuestos</a></li> 
+                      <li><a class="dropdown-item" href="../html/catalogo_visualizacion_cliente.php" id="repuestos"">Repuestos</a></li> 
                       <li><hr class="dropdown-divider bg-light"></li>
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>
                 </li>
                 
                 <li class="nav-item ms-4">
-                    <a class="nav-link" id="info" href="#">Informacion de maquina</a>
+                    <a class="nav-link" id="info" href="../html/Inicio_sesion_cliente.php">Informacion de maquina</a>
                 </li>
             </ul>
           </div>
