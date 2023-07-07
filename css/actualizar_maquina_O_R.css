@@ -4,20 +4,20 @@ body{
     background-size: cover;
     padding: 0;
     margin: 0;
-    height: 108vh;
+    height: 100vh;
 }
 
 
 .formulario{
     position: absolute;
-    margin-top: 20px;
-    top: 54%;
+    margin-top: 10px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 830px;
+    max-width: 800px;
     background-color: #161111a9;
     border-radius: 5px;
-    height: 780px;
+    max-height: 800px;
 }
 
 .formulario h1{
@@ -29,7 +29,7 @@ body{
 
 .formulario h1:hover{
     transition: .5s;
-    font-size: 30px;
+    font-size: 28px;
 }
 h1{
     font-size: 25px;
@@ -111,9 +111,6 @@ input[type=submit]:hover{
     color: #ffffff;   
 }
 
-#registrar{
-    margin-left: 210px;
-}
 
 input:active input:focus{
     color: #ffffff;
@@ -121,13 +118,12 @@ input:active input:focus{
 
 #siguiente{
     margin-left: 50px;
-    margin-top: auto;
-    width: 200px;
 }
 
 
-#cancelar{
+#cancelar, #siguiente{
     margin-top: auto;
+    margin-bottom: 20px;
     width: 200px;
 }
 
@@ -163,43 +159,35 @@ input:active, input:focus, input:valid{
 .logo{
     color: yellow;
     display: inline-block;
+    margin-top: 20px;
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media (max-width: 1200px) {
     .formulario{
             transform: translate(-50%, -50%);
-            padding-bottom: 400px;
-
-  }
-
-}
-
-@media screen and (max-width: 900px) {
-    .formulario{
-            transform: translate(-50%, -50%);
-            width: 550px;
+            max-width: 600px;
 
   }
   img{
     margin-left: 30px;
     margin-top: 20px;
   }
+   
+    
+    #siguiente, #cancelar{
+        margin-left: 20px;
+        width: 150px;
+    }
     #ingreso{
-    background-color: #dddddd60;
-    height: 58px;
-    border-radius: 10px;
-    width: 480px;
-    margin-top: 5px;
-    padding-left: 10px;
-    resize: none;
-    outline: none;
-}
+        width: 410px;
+    }
+    body{
+        height: 106vh;
+    }
+    
 
-#siguiente{
-    margin-left: 20px;
-    margin-top: auto;
-    width: 200px;
-}
 
 
 }
