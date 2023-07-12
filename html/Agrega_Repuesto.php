@@ -176,7 +176,7 @@
 
         <h2>Agregar imagen</h2>
 
-        <img class="imgAgregar" id="imgpreview" alt="">
+        <img class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
 
         <button>Seleccionar imagen</button>
 
@@ -184,12 +184,6 @@
 
       </div>
 
-      <div id="preview">
-
-
-
-
-      </div>
 
     </div>
 
@@ -206,9 +200,6 @@
           </div>
         </div>
       </button>
-
-      <!----------<input type="text" id="otro">------------>
-
 
     </div>
 
