@@ -40,7 +40,3 @@ dropArea.addEventListener("drop", (e) =>{
     dropArea.classList.add('active');
     dragText.textContent ="Arrastra y suelta imagen";
 });
-
-
-
-//funcion para la validacion de archivos
