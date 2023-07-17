@@ -116,12 +116,20 @@ include('../conexion/conexion.php');
         $result_consul = mysqli_query($conexion, $consulta);
         while ($row = mysqli_fetch_array($result_consul)) { ?>
           <tr>
-          <td><?php echo $row['Documento']?></td>
-          <td><?php echo $row['Nombre']?></td>
-          <td><?php echo $row['Apellidos']?></td>
-          <td><?php echo $row['Correo']?></td>
-          <td><i class='bx bx-edit-alt' id="icon_editar"></i></td>
-          <td><i class='bx bx-message-square-x' id="icon_eliminar"></i></td>
+            <td>
+              <?php echo $row['Documento'] ?>
+            </td>
+            <td>
+              <?php echo $row['Nombre'] ?>
+            </td>
+            <td>
+              <?php echo $row['Apellidos'] ?>
+            </td>
+            <td>
+              <?php echo $row['Correo'] ?>
+            </td>
+            <td><i class='bx bx-edit-alt' id="icon_editar"></i></td>
+            <td><i class='bx bx-message-square-x' id="icon_eliminar"></i></td>
           </tr>
         <?php } ?>
       </tbody>
