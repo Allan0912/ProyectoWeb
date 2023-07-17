@@ -45,11 +45,13 @@
         </div>     
       </nav>
  
-     <div class="row row-cols-sm-2 row-cols-md-5 row-cols-lg-6 row-cols-xl-6 justify-content-evenly">
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2">
+      <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
+
+     <div class="row row-cols-sm-2 row-cols-md-5 row-cols-lg-6 row-cols-xl-6 justify-content-evenly" id="contenedor-videos">
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
           <figure>
             <h5 class="mt-3">Titulo del video</h5>
-            <video src="" height="190" width="370" controls autoplay muted>
+            <video src="" height="190" width="370" autoplay muted>
               <source src="Agregar video"  alt="">  
             </video>
             <figcaption class="figure-caption mt-1">
@@ -94,5 +96,6 @@
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../indexJs/catalogoVideos.js"></script>
 </body>
 </html>

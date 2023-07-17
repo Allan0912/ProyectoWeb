@@ -87,20 +87,26 @@
 
 
 
-      <!--Apartado para agregar-->
+      <!------------Apartado para agregar---------------->
+
      <div class="row mx-4">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-2">
           <input type="text" placeholder="Escribe el titulo del video" id="titulo">
+
           <i class='bx bx-edit-alt' id="editar"></i>
+
           <div class="drop-area">
-            <h2><i class='bx bxs-video-plus'></i></h2>
-            <img class="imgAgregar" src="" alt="">
-            <button>Seleccionar video</button>
-            <input type="file" name="" id="input-file" hidden>
-          </div>
-          <div id="preview">
+
+            <h3>Agregar video</h3>
             
+            <video id="videopreview" height="300px"  ></video>
+
+            <button>Seleccionar video</button>
+
+            <input type="file" name="" id="input-file" hidden>
+
           </div>
+         
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
           <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
@@ -114,9 +120,11 @@
                 </div>
               </div>
             </button>
+            <button onclick="agregarVideo()" class="agregar" id="publicar_repuesto">Publicar</button>
         </div> 
      </div>
-     <script src="../indexJs/agregar_video.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../indexJs/agregar_video.js" ></script>
+    <script src="../indexJs/agreVideo.js" ></script>
 </body>
 </html>

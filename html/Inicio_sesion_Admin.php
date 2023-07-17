@@ -37,7 +37,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 mx-4">
-                            <p id="parrafo2"><a href="#" class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" id="selector">Olvide mi contraseña</a></p>
+                            <p id="parrafo2"><a href="../html/codigo_recuperacion.php" class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" id="selector">Olvide mi contraseña</a></p>
                         </div>
                     </div>
                     <div class="sesion">

@@ -137,15 +137,16 @@ include('../conexion/conexion.php');
   </div>
   <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
   <div class="row">
-    <div class="redes">
-      <hr class="mt-5">
-      <ul class="redes">
-        <span class="facebook"><a href="#"><i class='bx bxl-facebook'></i></a></span>
-        <span class="whatsapp"><a href="#"><i class='bx bxl-whatsapp'></i></a></span>
-        <span class="gmail"><a href="#"><i class='bx bxl-gmail'></i></a></span>
-      </ul>
-
-    </div>
+    <footer>
+      <div class="redes">
+        <hr class="mt-5">
+        <ul class="redes">
+          <span class="facebook"><a href="#"><i class='bx bxl-facebook'></i></a></span>
+          <span class="whatsapp"><a href="#"><i class='bx bxl-whatsapp'></i></a></span>
+          <span class="gmail"><a href="#"><i class='bx bxl-gmail'></i></a></span>
+        </ul>
+      </div>
+    </footer>
   </div>
   <script src="../indexJs/ordenes_de_servicio.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
