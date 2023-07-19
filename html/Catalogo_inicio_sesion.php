@@ -37,7 +37,7 @@
                       Repuestos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                      <li><a class="dropdown-item" href="../html/catalogo_videos_admin.html" id="repuestos">Videos</a></li> 
+                      <li><a class="dropdown-item" href="../html/catalogo_videos_admin.php" id="repuestos">Videos</a></li> 
                       <li><hr class="dropdown-divider bg-light"></li>
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>

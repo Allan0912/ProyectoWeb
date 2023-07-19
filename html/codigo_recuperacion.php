@@ -22,7 +22,7 @@
             <form method="post">
               <div class="rellenar">
                 <input type="text" required  id='identificar'onkeyup="cambiarColor" autocomplete="off"/>
-                <label for="rellenar" id="indicacion">Diguita tu codigo que se te envó a tu Gmail</label>
+                <label for="rellenar" id="indicacion">Digita tu codigo que se te envó a tu Gmail</label>
               </div>
               <div class="row col-2">
                 <div class="col-6">

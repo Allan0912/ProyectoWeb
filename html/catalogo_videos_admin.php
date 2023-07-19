@@ -27,7 +27,7 @@
                   Videos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                  <li><a class="dropdown-item" href="../html/Catalogo_inicio_sesion.html" id="contacto">Repuestos</a></li>
+                  <li><a class="dropdown-item" href="../html/Catalogo_inicio_sesion.php" id="contacto">Repuestos</a></li>
                 </ul>
             </li>
           </ul>
