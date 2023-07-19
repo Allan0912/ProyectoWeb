@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .nombre{
     color: yellow;
 }
@@ -13,6 +18,7 @@
     display: flex;
     justify-content: end;
     align-items: end;
+    
 }
 
 span{
@@ -126,3 +132,6 @@ span{
     border-top: solid rgba(0, 0, 0, 0.644) 5px;
 }
 
+#icon_user{
+    font-size: 40px;
+}
