@@ -114,7 +114,7 @@ include('../conexion/conexion.php');
         <?php
         $consulta = "SELECT Documento, Nombre, Apellidos, Correo FROM usuario";
         $result_consul = mysqli_query($conexion, $consulta);
-        while ($row = mysqli_fetch_array($result_consul)) { ?>
+        while ($row = mysqli_fetch_assoc($result_consul)) { ?>
           <tr>
             <td>
               <?php echo $row['Documento'] ?>
@@ -128,8 +128,16 @@ include('../conexion/conexion.php');
             <td>
               <?php echo $row['Correo'] ?>
             </td>
-            <td><i class='bx bx-edit-alt' id="icon_editar"></i></td>
-            <td><i class='bx bx-message-square-x' id="icon_eliminar"></i></td>
+            <td>
+              <a href="../conexion/editarUsuario.php?id=<?php echo $row['Documento']?>">
+              <i  class='bx bx-edit-alt' id="icon_editar"></i>
+            </a>
+            </td>
+            <td>
+              <a href="../conexion/eliminarUsuario.php?id=<?php echo $row['Documento']?>" class="btn btn-danger">
+              <i class='bx bx-message-square-x' id="icon_eliminar"></i>
+            </a>
+            </td>
           </tr>
         <?php } ?>
       </tbody>
