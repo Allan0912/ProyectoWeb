@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automaciacion y mantenimiento</title>
-    <link rel="stylesheet" href="../css/catalogo_visualizacion_cliente.css">
+    <link rel="stylesheet" href="../css/catalogo_videos_cliente.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/png">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
+    <nav  id="navbar"class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
         <div class="container-fluid">
           <img id="logo"src="../imagenes/logo.png" width="95px" alt="">
           <p class="nombre">Automaticacion <br> y mantenimiento</p>
@@ -38,14 +38,17 @@
                 </li>
             </ul>
           </div>
-           <form class="d-flex ms-4">
+          <ul class="navbar-nav mb-2 mb-lg-3 ">
+            <li><a class="nav-link" href="#" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
+          </ul> 
+          <form class="d-flex ms-4">
               <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
           </form>
         </div>     
       </nav>
  
-      <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
+      <!----------------------APARTADO DE VISUALIZACION DE VIDEOS----------------------------------->
 
      <div class="row row-cols-sm-2 row-cols-md-5 row-cols-lg-6 row-cols-xl-6 justify-content-evenly" id="contenedor-videos">
         <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
@@ -60,6 +63,7 @@
 						</figcaption>           
           </figure>
         </div>
+        
         
         
 
@@ -96,6 +100,6 @@
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="../indexJs/catalogoVideos.js"></script>
+    <script src="../indexJs/catalogo_videos_cliente.js"></script>
 </body>
 </html>
