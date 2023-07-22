@@ -31,7 +31,7 @@
 
               <div class="row col-2">
                 <div class="col-6">
-                  <input type="submit" value="Iniciar" id="iniciar" />
+                  <input type="submit" value="cambiar" id="cambiar" />
                 </div>
               </div>
             </form>

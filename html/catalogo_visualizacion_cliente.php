@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/png">
-
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
@@ -27,12 +26,11 @@
                       Repuestos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                      <li><a class="dropdown-item" href="../html/catalogo_videos.php" id="repuestos"">videos</a></li> 
+                      <li><a class="dropdown-item" href="../html/catalogo_videos_cliente.php" id="repuestos"">videos</a></li> 
                       <li><hr class="dropdown-divider bg-light"></li>
                       <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
                     </ul>
                 </li>
-
                 <li class="nav-item ms-4">
                     <a class="nav-link" id="info" href="../html/Inicio_sesion_cliente.php">Informacion de maquina</a>
                 </li>
@@ -44,23 +42,19 @@
           </form>
         </div>     
       </nav>
-
       <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
 
      <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
-
         <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2" id="repuesto-original">
           <figure>
             <h5 class="mt-3">TITULO</h5>
             <img class="repuesto mt-3" src="/imagenes/prueba.jpg" height="160" alt="imagen del repuesto">  
             <figcaption class="figure-caption mt-1">
               <p class="align-content-end ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-
-							<a class="ver mx-4" href="#">Ver más</a>
+							<a class="ver mx-4" href="../html/visualizacion_repuesto_cliente.php">Ver más</a>
 						</figcaption>           
           </figure>
         </div>
-
       </div>
 
       <!--------------------------------------PAGINACION----------------------------------------------->
@@ -78,21 +72,20 @@
         </div>
       </div>
 
-
-
       <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
-
-    <div class="row">
-       <div class="redes">
-          <hr class="mt-5">
-          <ul class="redes">
-              <span class="facebook"><a href="#"><i class='bx bxl-facebook'></i></a></span>
-              <span class="whatsapp"><a href="#"><i class='bx bxl-whatsapp'></i></a></span>
-              <span class="gmail"><a href="#"><i class='bx bxl-gmail'></i></a></span>
-          </ul>
-
-      </div>
-  </div>
+    <footer>
+        <div class="row">
+          <div class="redes">
+             <hr class="mt-5">
+             <ul class="redes">
+                 <span class="facebook"><a href="#"><i class='bx bxl-facebook'></i></a></span>
+                 <span class="whatsapp"><a href="#"><i class='bx bxl-whatsapp'></i></a></span>
+                 <span class="gmail"><a href="#"><i class='bx bxl-gmail'></i></a></span>
+             </ul>
+         </div>
+        </div>
+    </footer>
+   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="../indexJs/CatalogoVizualizacionCliente.js"></script>
