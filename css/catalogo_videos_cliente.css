@@ -136,13 +136,6 @@ span{
     border-top: solid rgba(0, 0, 0, 0.644) 5px;
 }
 
-.sticky {
-    position:fixed;
-    width: 100%;
-    top: 0;
-    background: rgb(44, 44, 105);
-    z-index: 9999;
-}
 
 #icon_user{
     font-size: 40px;
@@ -159,4 +152,12 @@ span{
 
 #contenedor-videos{
     margin-top: 90px;
+    text-align: center;
+    max-height: 800px;
+}
+
+@media (max-width: 900px){
+    #contenedor-videos{
+        margin-top: 190px;
+    }
 }

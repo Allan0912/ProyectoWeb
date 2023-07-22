@@ -74,7 +74,7 @@ span{
 
 .repuesto1{
     background-color:rgba(207, 207, 9, 0);
-    height: 330px;
+    max-height: 530px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -136,7 +136,7 @@ span{
     border-top: solid rgba(0, 0, 0, 0.644) 5px;
 }
 
-.sticky {
+#navbar {
     position:fixed;
     width: 100%;
     top: 0;
@@ -148,4 +148,15 @@ span{
     font-size: 40px;
     vertical-align: middle;
     padding-left: 10px;
+}
+
+#contenedor-repuestos{
+    margin-top: 80px;
+}
+
+@media (max-width: 890px){
+
+    #contenedor-repuestos{
+        margin-top: 170px;
+    }
 }
