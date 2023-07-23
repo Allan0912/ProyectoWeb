@@ -91,9 +91,9 @@
        <div class="redes">
           <hr class="mt-5">
           <ul class="redes">
-              <span class="facebook"><a href="#"><i class='bx bxl-facebook'></i></a></span>
-              <span class="whatsapp"><a href="#"><i class='bx bxl-whatsapp'></i></a></span>
-              <span class="gmail"><a href="#"><i class='bx bxl-gmail'></i></a></span>
+              <span class="facebook"><a href="https://www.facebook.com/automatizacionibague/about" target="_blank"><i class='bx bxl-facebook'></i></a></span>
+              <span class="whatsapp"><a href="https://wa.me/573197029448?text=Quiero saber más de tu producto"  target="_blank" ><i class='bx bxl-whatsapp'></i></a></span>
+              <span class="gmail"><a href="#"  target="_blank"><i class='bx bxl-gmail'  ></i></a></span>
           </ul>
            
       </div>

@@ -66,17 +66,19 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5" id="whatsapp">
       <p name="" id="descripcion" cols="30" rows="10">Se debe mostrar descripcion</p>
-
-      <button class="btn btn-success w-100">
-        <div class="row">
-          <div class="col-2">
-            <i class='bx bxl-whatsapp icon' id="icon"></i>
+      <a href="https://wa.me/57?text=Quiero saber más de tu producto" target="_blank">
+        <button class="btn btn-success w-100">
+          <div class="row">
+            <div class="col-2">
+              <i class='bx bxl-whatsapp icon' id="icon"></i>
+            </div>
+            <div class="col-10">
+              <h3>Whatsapp</h3>
+            </div>
           </div>
-          <div class="col-10">
-            <h3>Whatsapp</h3>
-          </div>
-        </div>
-      </button>
+        </button>
+      </a>
+   
     </div>
 
   </div>
