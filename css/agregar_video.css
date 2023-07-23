@@ -164,3 +164,43 @@
     font-size: 40px;
 }
 
+#publicar_repuesto{
+    background-color: rgba(38, 38, 150, 0.74);
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    float: right;
+}
+
+#publicar_repuesto:hover{
+    background-color: rgba(24, 24, 170, 0.74);
+}
+
+#publicar_repuesto:active{
+    border: solid 3px rgb(255, 166, 0);
+}
+
+/* Media Queries*/
+
+/*pantallas pequeñas*/
+@media (max-width: 1000px){
+
+    #publicar_repuesto{
+        width: 30%;
+        float: left;
+    }
+    
+}
+@media (max-width: 800px){
+    #clave{
+        font-size: 1.5rem;
+    }
+    #publicar_repuesto{
+        width: 50%;
+        float: left;
+    }
+    
+}
