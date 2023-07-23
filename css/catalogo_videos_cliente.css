@@ -74,7 +74,7 @@ span{
 
 .repuesto1{
     background-color:rgba(207, 207, 9, 0);
-    max-height: 530px;
+    height: 330px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -136,27 +136,28 @@ span{
     border-top: solid rgba(0, 0, 0, 0.644) 5px;
 }
 
-#navbar {
-    position:fixed;
-    width: 100%;
-    top: 0;
-    background: rgb(44, 44, 105);
-    z-index: 9999;
-}
 
 #icon_user{
     font-size: 40px;
     vertical-align: middle;
     padding-left: 10px;
 }
-
-#contenedor-repuestos{
-    margin-top: 80px;
+#navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1000;
 }
 
-@media (max-width: 890px){
+#contenedor-videos{
+    margin-top: 90px;
+    text-align: center;
+    max-height: 800px;
+}
 
-    #contenedor-repuestos{
-        margin-top: 170px;
+@media (max-width: 900px){
+    #contenedor-videos{
+        margin-top: 190px;
     }
 }

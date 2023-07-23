@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/png">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
         <div class="nav container-fluid">
           <img id="logo"src="../imagenes/logo.png" width="95px" alt="">
           <p class="nombre">Automaticacion <br> y mantenimiento</p>
@@ -36,13 +36,16 @@
                 </li>
             </ul>
           </div>
+          <ul class="navbar-nav mb-2 mb-lg-3 ">
+            <li><a class="nav-link" href="#" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
+          </ul> 
            <form class="d-flex ms-4">
               <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
           </form>
         </div>     
       </nav>
-      <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
+    <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
 
      <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
         <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2" id="repuesto-original">
@@ -71,8 +74,7 @@
           </nav>
         </div>
       </div>
-
-      <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
+    <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
     <footer>
         <div class="row">
           <div class="redes">

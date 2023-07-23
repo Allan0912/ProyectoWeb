@@ -99,5 +99,9 @@
     font-weight:bold;
 }
 
-
+#icon_user{
+    font-size: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
 
