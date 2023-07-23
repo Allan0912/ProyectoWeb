@@ -163,49 +163,37 @@
 
 
   <!--Apartado para agregar-->
-
-  <div class="row mx-4">
-
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-2">
-      <div class="input_icon">
-        <input type="text" placeholder="Escribe el titulo del repuesto" id="clave">
-        <i class='bx bx-edit-alt' id="editar"></i>
-      </div>
-      
-      <div class="drop-area">
-
-        <h2>Agregar imagen</h2>
-
-        <img class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
-
-        <button>Seleccionar imagen</button>
-
-        <input type="file" name="" id="input-file" hidden>
-
-      </div>
-
-
-    </div>
-
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
-      <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
-      <button  class="agregar" id="publicar_repuesto">Publicar</button>
-      <button class="btn btn-success w-100">
-        <div class="row">
-          <div class="col-2">
-            <i class='bx bxl-whatsapp icon' id="icon"></i>
-          </div>
-          <div class="col-10">
-            <h3>Whatsapp</h3>
-          </div>
+  <form action="#">
+    <div class="row mx-4">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-2">
+        <div class="input_icon">
+          <input type="text" placeholder="Escribe el titulo del repuesto" id="clave">
+          <i class='bx bx-edit-alt' id="editar"></i>
         </div>
-      </button>
-
+        <div class="drop-area">
+          <h2>Agregar imagen</h2>
+          <img class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
+          <button>Seleccionar imagen</button>
+          <input type="file" name="" id="input-file" hidden>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
+        <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
+        <button  class="agregar" id="publicar_repuesto">Publicar</button>
+        <button class="btn btn-success w-100">
+          <div class="row">
+            <div class="col-2">
+              <i class='bx bxl-whatsapp icon' id="icon"></i>
+            </div>
+            <div class="col-10">
+              <h3>Whatsapp</h3>
+            </div>
+          </div>
+        </button>
+      </div>
     </div>
-
-  </div>
-
-  </div>
+  </form>
+  
 
   <script src="../indexJs/agrega_repuesto_explorador_archivos.js"></script>
 
