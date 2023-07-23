@@ -23,7 +23,8 @@ if(!$resultado){
     echo "<script>alert('Error al Registrarse');</script>";
 }
 else{
-    echo "<script>alert('Registro Exitoso!');window.history.go(-1);</script>";
+    echo "<script>alert('Registro Exitoso!');</script>";
+    echo "<script>window.location.href = 'http://localhost/proyecto/html/registrar_Usuario.php';</script>";
 }
 mysqli_close($conexion)
 ?>
