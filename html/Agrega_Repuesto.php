@@ -189,7 +189,7 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
       <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
-      <button onclick="agregarElemento()" class="agregar" id="publicar_repuesto">Publicar</button>
+      <button  class="agregar" id="publicar_repuesto">Publicar</button>
       <button class="btn btn-success w-100">
         <div class="row">
           <div class="col-2">
