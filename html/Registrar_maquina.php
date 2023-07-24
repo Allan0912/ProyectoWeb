@@ -34,7 +34,7 @@
               </div>
 
               <div class="rellenar">
-                <input type="text" name="serial" required />
+                <input type="number" name="serial" required />
                 <label>No.Serial</label>
               </div>
 
