@@ -163,23 +163,25 @@
 
 
   <!--Apartado para agregar-->
-  <form action="#">
+  <form  method="post" action="http://localhost/proyecto/conexion/agregar_producto.php" enctype="multipart/form-data">
     <div class="row mx-4">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-2">
         <div class="input_icon">
-          <input type="text" placeholder="Escribe el titulo del repuesto" id="clave">
+          <input type="text" name="titulo" placeholder="Escribe el titulo del repuesto" id="clave" required autocomplete="off">
           <i class='bx bx-edit-alt' id="editar"></i>
         </div>
         <div class="drop-area">
           <h2>Agregar imagen</h2>
           <img class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
-          <button>Seleccionar imagen</button>
-          <input type="file" name="" id="input-file" hidden>
+          <input type="file" name="imagen" id="input-file" required>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
-        <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
-        <button  class="agregar" id="publicar_repuesto">Publicar</button>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10" 
+        placeholder="Agregar una pequeña descripcion..."
+        required></textarea>
+        <button  class="agregar" id="publicar_repuesto" type="submit">Publicar</button>
+
         <button class="btn btn-success w-100">
           <div class="row">
             <div class="col-2">
