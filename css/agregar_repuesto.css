@@ -88,10 +88,10 @@
     color: black;
 }
 
-.drop-area button{
+.drop-area label{
     padding: 10px 25px;
     font-size: 20px;
-    border: 0;
+    border: none;
     outline:none;
     background-color: #5256ad;
     color: white;
@@ -99,6 +99,10 @@
     cursor:pointer;
     margin: 20px;
 }
+input[type="file"]{
+    display: none;
+}
+
 /*Capa que se crea de forma denamica para cuando se suba un nuevo archivo */
 .file-container{
     display: flex;
@@ -107,7 +111,11 @@
     padding: 10px;
     border: solid 1px #ddd;
 }
-
+#imgpreview{
+    object-fit: cover;
+    object-fit: contain;
+    content: none;
+}
 #preview{
     margin-top: 10px;
 }

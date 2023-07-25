@@ -7,10 +7,6 @@ const Agregar = document.querySelectorAll(".imgAgregar")
 
 let files;
 
-button.addEventListener('click', e => {
-    input.click(); //LLama el input quiere decir al explorador de archivos 
-});
-
 input.addEventListener('change', e => {
     var file = e.target.files[0];
       var reader = new FileReader();
@@ -53,3 +49,19 @@ dropArea.addEventListener("drop", (e) =>{
 
 
 //funcion para la validacion de archivos
+//funcion para eliminar el h2 cuando se agrega una imagen 
+const h2 = document.querySelector("#h2texto");
+
+input.addEventListener("change",function(){
+    if(input.files && input.files[0]){
+        //mostrar imagen 
+        const reader = new FileReader()
+        
+        reader.onload = function (e){
+            Agregar.src = e.target.result;
+        }
+        reader.readAsDataURL(input.files[0])
+        h2.style.display = "none"
+    }
+   
+})
