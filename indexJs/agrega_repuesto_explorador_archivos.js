@@ -6,7 +6,6 @@ const input = dropArea.querySelector("#input-file");
 const Agregar = document.querySelectorAll(".imgAgregar")
 
 let files;
-
 input.addEventListener('change', e => {
     var file = e.target.files[0];
       var reader = new FileReader();
