@@ -47,8 +47,8 @@
       </nav>
     <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
 
-     <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
-        <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2" id="repuesto-original">
+     <div  class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
+        <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2 " style="display: none;" id="repuesto-original">
           <figure>
             <h5 class="mt-3">TITULO</h5>
             <img class="repuesto mt-3" src="/imagenes/prueba.jpg" height="160" alt="imagen del repuesto">  

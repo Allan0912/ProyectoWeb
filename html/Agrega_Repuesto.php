@@ -172,7 +172,7 @@
         </div>
         <div class="drop-area">
           <h2 id="h2texto">Agregar imagen</h2>
-          <img class="imgAgregar" id="imgpreview" style="width: 100%;" alt="">
+          <img class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
           <label for="input-file">Seleccionar archivo</label>
           <input type="file" name="imagen" id="input-file" required>
         </div>

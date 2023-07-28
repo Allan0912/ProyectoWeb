@@ -46,3 +46,4 @@ function agregarElemento (){
     document.getElementById("clave").value = "";
     document.getElementById("descripcion").value = "";
 }
+

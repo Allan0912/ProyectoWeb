@@ -51,7 +51,7 @@
   </nav>
 
 
-  <!--Apartado para agregar-->
+  <!-------------------------------------APARTADO AGREGAR------------------------------------->
 
   <div class="row mx-4">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-4">
@@ -90,6 +90,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <script src="../indexJs/AgreRepuesto.js"></script>
+  <script src="../indexJs/CatalogoVizualizacionCliente.js" ></script>
 
 </body>
 
