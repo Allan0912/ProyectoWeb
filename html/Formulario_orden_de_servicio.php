@@ -32,23 +32,28 @@
                     <label>Fecha de ingreso</label>
                 </div>
                 <div class="rellenar">
-                    <input type="number" name="serial" required  autocomplete="off"/>
-                    <label>N° serial de maquina</label>
-                  </div>
-
+                  <input type="text" name="nombre" required id="nombre" onkeyup="cambiarColor" autocomplete="off"/>
+                  <label for="rellenar">Nombre del cliente</label>
+                </div>
+             
                 <div class="descripcion_ingreso" id="formulario2">
                     <label>Descripción de ingreso</label>
                     <textarea name="descripcion" id="ingreso" cols="30" rows="10"></textarea>
                 </div>
                 <div class="rellenar">
+                  <input type="number" name="serial" required  autocomplete="off"/>
+                  <label>N° serial de maquina</label>
+                </div>
+
+                <div class="rellenar" id="formulario2">
                     <input type="datetime-local" style="color: rgba(255, 255, 255, 0.644)" name="fecha" required/>
                     <label>Fecha de actualizacion</label>
                 </div>
-                <div class="descripcion_ingreso" id="formulario2">
+                <div class="descripcion_actualizacion" id="formulario2">
                     <label>Descrpcion de actualizacion</label>
                     <textarea name="descripcion" id="ingreso" cols="30" rows="10"></textarea>
                 </div>
-                
+              
               <div class="row">
                 <div class="col-6">
                   <input type="submit" value="Cancelar" id="cancelar" />
