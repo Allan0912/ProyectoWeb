@@ -70,17 +70,6 @@ span{
     border: solid 2px;
 }
 
-
-
-.repuesto1{
-    background-color:rgba(207, 207, 9, 0);
-    height: 330px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
-}
-
 .ver{
     display: flex;
     align-items: end;
@@ -151,10 +140,11 @@ span{
 }
 
 #contenedor-videos{
+    max-width: auto;
     margin-top: 90px;
     text-align: center;
-    max-height: 800px;
-}
+} 
+
 
 @media (max-width: 900px){
     #contenedor-videos{
