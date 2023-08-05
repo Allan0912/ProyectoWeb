@@ -54,8 +54,8 @@
         <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
           <figure>
             <h5 class="mt-3">Titulo del video</h5>
-            <video src="" height="190" width="370" autoplay muted>
-              <source src="Agregar video"  alt="">  
+            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
             </video>
             <figcaption class="figure-caption mt-1">
               <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
@@ -63,14 +63,94 @@
 						</figcaption>           
           </figure>
         </div>
-        
-        
-        
-
-
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video2.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video2.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video3.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video3.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video2.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video2.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video3.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video3.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
+          <figure>
+            <h5 class="mt-3">Titulo del video</h5>
+            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
+              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
+            </video>
+            <figcaption class="figure-caption mt-1">
+              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
+							<a class="ver mx-4" href="#">Ver más</a>
+						</figcaption>           
+          </figure>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-12">
+      
+      <div class="row" id="page">
+        <div class="col-12" id="page">
           <nav aria-label="Page barra">
             <ul class="pagination justify-content-center mt-4">
               <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
@@ -82,23 +162,21 @@
           </nav>
         </div>
       </div>
-     
-
+    
       
       <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
-
-    <div class="row">
-       <div class="redes">
-          <hr class="mt-5">
-          <ul class="redes">
-              <span class="facebook"><a href="https://www.facebook.com/automatizacionibague/about" target="_blank"><i class='bx bxl-facebook'></i></a></span>
-              <span class="whatsapp"><a href="https://wa.me/573197029448?text=Quiero saber más de tu producto"  target="_blank" ><i class='bx bxl-whatsapp'></i></a></span>
-              <span class="gmail"><a href="#"  target="_blank"><i class='bx bxl-gmail'  ></i></a></span>
-          </ul>
-           
-      </div>
-  </div>
-
+      <footer>
+        <div class="row">
+          <div class="redes">
+             <hr class="mt-5">
+             <ul class="redes">
+                 <span class="facebook"><a href="https://www.facebook.com/automatizacionibague/about" target="_blank"><i class='bx bxl-facebook'></i></a></span>
+                 <span class="whatsapp"><a href="https://wa.me/573197029448?text=Quiero saber más de tu producto"  target="_blank" ><i class='bx bxl-whatsapp'></i></a></span>
+                 <span class="gmail"><a href="#"  target="_blank"><i class='bx bxl-gmail'  ></i></a></span>
+             </ul>      
+         </div>
+        </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../indexJs/catalogo_videos_cliente.js"></script>
 </body>

@@ -73,7 +73,7 @@
                 <i class='bx bx-user-circle' id="icon_user"></i>
               </a>
               <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-                <li><a class="dropdown-item" href="#" id="repuestos">Mi perfil</a></li> 
+                <li><a class="dropdown-item" href="../html/perfil_admin.php" id="repuestos">Mi perfil</a></li> 
                 <li><a class="dropdown-item" href="../conexion/Cerrar_Sesion.php" id="contacto">Cerrar sesion</a></li>
               </ul>
            </li>
