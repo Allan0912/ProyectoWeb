@@ -39,7 +39,7 @@
             </ul>
           </div>
           <ul class="navbar-nav mb-2 mb-lg-3 ">
-            <li><a class="nav-link" href="#" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
+            <li><a class="nav-link" href="../html/Perfil_mostrar_cliente.php" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
           </ul> 
           <form class="d-flex ms-4">
               <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
@@ -59,7 +59,7 @@
             </video>
             <figcaption class="figure-caption mt-1">
               <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
+							<a class="ver mx-4" href="../html/visualizacion_videos_cliente .php">Ver más</a>
 						</figcaption>           
           </figure>
         </div>
