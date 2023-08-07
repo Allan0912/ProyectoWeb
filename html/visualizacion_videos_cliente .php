@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nombre del repuesto</title>
   <link rel="shortcut icon" href="../imagenes/logo.png" type="image/png">
-  <link rel="stylesheet" href="../css/Visualizacion_repuesto_cliente.css">
+  <link rel="stylesheet" href="../css/Visualizacion_videos_cliente.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -56,18 +56,18 @@
   <div class="row mx-4">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-4">
       <div class="input_icon">
-        <p id="clave">se debe mostrar el titulo del repuesto</p>
+        <p id="clave">se debe mostrar el titulo del video</p>
       </div>
       <div class="drop-area">
-        <img src="../imagenes/prueba.jpg" class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
+        <video src="../imagenes/video1.mp4" class="videoagregar" id="videopreview" controls></video>
         <input type="file" name="" id="input-file" hidden>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5" id="whatsapp">
-      <p name="" id="descripcion" cols="30" rows="10">Se debe mostrar descripcion </p>
+      <p name="" id="descripcion" cols="30" rows="10">Se debe mostrar descripcion</p>
       <a href="https://wa.me/57?text=Quiero saber más de tu producto" target="_blank">
-        <button class="btn btn-success w-100">
+        <button class="btn btn-success w-100" id="vide">
           <div class="row">
             <div class="col-2">
               <i class='bx bxl-whatsapp icon' id="icon"></i>
