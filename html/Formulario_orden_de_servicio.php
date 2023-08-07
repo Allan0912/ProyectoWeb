@@ -31,14 +31,14 @@
           <div class="imgcliente">
             <i class="bx bxs-analyse"></i>
           </div>
-          <form method="post" action="" id="form">
+          <form method="post" action="http://localhost/proyecto/conexion/registra_orden_servicio.php" id="form">
             <div class="rellenar">
               <input type="number" name="identificar" onblur="bucar_datos();" required id="identificar" autocomplete="off" />
               <label for="rellenar">N° de identifiacion</label>
             </div>
 
             <div class="rellenar" id="formulario2">
-              <input type="datetime-local" id="fecha_ingreso" style="color: rgba(255, 255, 255, 0.644)" name="fecha" required />
+              <input type="datetime-local" id="fecha_ingreso" style="color: rgba(255, 255, 255, 0.644)" name="fechai" required />
               <label>Fecha de ingreso</label>
             </div>
             <div class="rellenar">
@@ -48,7 +48,7 @@
 
             <div class="descripcion_ingreso" id="formulario2">
               <label>Descripción de ingreso</label>
-              <textarea name="descripcion" id="ingreso" cols="30" rows="10"></textarea>
+              <textarea name="descripcioni" id="ingreso" cols="30" rows="10"></textarea>
             </div>
             <div class="rellenar">
               <input type="number" name="serial" id="serial" required autocomplete="off" />
@@ -56,12 +56,12 @@
             </div>
 
             <div class="rellenar" id="formulario2">
-              <input type="datetime-local" id="fecha_actualizacion" style="color: rgba(255, 255, 255, 0.644)" name="fecha" required />
+              <input type="datetime-local" id="fecha_actualizacion" style="color: rgba(255, 255, 255, 0.644)" name="fechaactualizacion" required />
               <label>Fecha de actualizacion</label>
             </div>
             <div class="descripcion_actualizacion" id="formulario2">
               <label>Descripcion de actualizacion</label>
-              <textarea class="descripcion2" name="descripcion" id="ingreso" cols="30" rows="10"></textarea>
+              <textarea class="descripcion2" name="descripciona" id="ingreso" cols="30" rows="10"></textarea>
             </div>
 
             <div class="row">
