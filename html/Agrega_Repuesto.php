@@ -33,7 +33,7 @@
 
       <img id="logo" src="../imagenes/logo.png" height="90px" alt="">
 
-      <p class="nombre">Automaticacion <br> y mantenimiento</p>
+      <p class="nombre">Automatizacion <br> y mantenimiento</p>
 
 
 

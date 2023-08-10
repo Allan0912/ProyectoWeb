@@ -26,7 +26,7 @@
       <div class="col-12">
         <div class="formulario">
           <img src="../imagenes/logo.png" height="70" alt="" />
-          <p class="logo">Automaticación y mantenimiento</p>
+          <p class="logo">Automatización y mantenimiento</p>
           <h1>Orden de servicio</h1>
           <div class="imgcliente">
             <i class="bx bxs-analyse"></i>

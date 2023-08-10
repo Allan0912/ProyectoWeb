@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="formulario">
-                    <p><img src="../imagenes/logo.png" width="70" alt="">Automacicacion y mantenimiento</p>
+                    <p><img src="../imagenes/logo.png" width="70" alt="">Automatizacion y mantenimiento</p>
                     <h1>Registrar usuario</h1>
                     <form method="post" action="http://localhost/proyecto/conexion/registrar_Usuario.php">
                         <div class="rellenar">

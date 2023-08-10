@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
         <div class="container-fluid">
           <img id="logo"src="../imagenes/logo.png" width="95px" alt="">
-          <p class="nombre">Automaticacion <br> y mantenimiento</p>
+          <p class="nombre">Automatizacion <br> y mantenimiento</p>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

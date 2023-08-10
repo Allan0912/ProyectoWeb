@@ -15,7 +15,7 @@
         <div class="row">
             <div class=" fondo col-12 col-sx-6 col-sm-12" style="height: 570px;">
                 <div class="logo text-center">
-                    <p><img src="../imagenes/logo.png" width="90" alt="">Automaticacion y mantenimiento</p>
+                    <p><img src="../imagenes/logo.png" width="90" alt="">Automatizacion y mantenimiento</p>
                 </div>
                 <h2 class="text-center" class="fw-bold">Administrador</h2>
                 <div class="text-center usuario">

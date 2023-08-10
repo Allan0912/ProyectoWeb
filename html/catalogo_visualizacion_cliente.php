@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automaciacion y mantenimiento</title>
+    <title>Automatizacion y mantenimiento</title>
     <link rel="stylesheet" href="../css/catalogo_visualizacion_cliente.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -14,7 +14,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
         <div class="nav container-fluid">
           <img id="logo"src="../imagenes/logo.png" width="95px" alt="">
-          <p class="nombre">Automaticacion <br> y mantenimiento</p>
+          <p class="nombre">Automatizacion <br> y mantenimiento</p>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
