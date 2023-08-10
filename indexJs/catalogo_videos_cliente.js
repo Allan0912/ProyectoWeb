@@ -4,7 +4,7 @@ window.addEventListener('scroll', function(){
     nav.classList.toggle('bajar',window.scrollY>0)
 });
 
-const itemsPerPage = 5;
+const itemsPerPage = 8;
 const items = document.querySelectorAll('.video1');
 const paginationContainer = document.getElementById('paginationList');
 

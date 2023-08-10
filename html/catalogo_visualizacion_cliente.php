@@ -51,7 +51,7 @@
         <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2 " style="display: none;" id="repuesto-original">
           <figure>
             <h5 class="mt-3">TITULO</h5>
-            <img class="repuesto mt-3" src="/imagenes/prueba.jpg" height="160" alt="imagen del repuesto">  
+            <img class="repuesto mt-3" src="../imagenes/prueba.jpg" height="160" alt="imagen del repuesto">  
             <figcaption class="figure-caption mt-1">
               <p class="align-content-end ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
 							<a class="ver mx-4" href="../html/visualizacion_repuesto_cliente.php">Ver más</a>
@@ -61,16 +61,10 @@
       </div>
 
       <!--------------------------------------PAGINACION----------------------------------------------->
-      <div class="row">
-        <div class="col-12">
+      <div class="row" id="page">
+        <div class="col-12" id="page">
           <nav aria-label="Page barra">
-            <ul class="pagination justify-content-center mt-4">
-              <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
-            </ul>
+              <ul class="pagination justify-content-center mt-4" id="paginationList" />
           </nav>
         </div>
       </div>
