@@ -67,7 +67,7 @@ function getRepuestos() {
 
 // codigo de paginacion
 const itemsPerPage = 2
-const items = document.querySelectorAll('.repuesto1')
+const items = document.querySelectorAll('#repuesto-original')
 const paginationContainer = document.getElementById('paginationList')
 
 function showPage(pageNumber){
