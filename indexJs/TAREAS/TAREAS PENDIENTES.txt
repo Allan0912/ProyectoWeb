@@ -17,7 +17,7 @@ Catalogo videos (Daniel Moreno- Rios) (php-js)
 
 funcionalidad e busqueda (Daniel Moreno-rios)(php-js)
 
-Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan-Jersson)
+Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios Jersson) (php) dudas con la interfaz comunicarse con allan
 
 Funcionalidad de historial de orden de servicio (Rios)(php-js)
 
@@ -32,8 +32,7 @@ asignado con anterioridad una vez se haya registrado su maquina. (Rios-Daniel Me
 JERSSON
 
 El apartado de VER MÁS en catálogo videos y repuestos (Jersson) 
-
-Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan-Jersson)
+Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios Jersson) (php) dudas con la interfaz comunicarse con allan
 
 ALLAN
 
@@ -43,8 +42,7 @@ funcionalidad del footer  de las redes sociales, Whatsapp , facebook, gmail (All
 
 paginacion de catalogo de respuesto y videos (Allan) (html-js)
 
-Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan- Jersson) (html-css-php)
- 
+funcionalidad de imprimir en el archivo "informacion de maquina"
 
 DANIEL MENDOZA 
 

@@ -10,53 +10,63 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="informacion">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="text-light">Informacion de tu maquina</h3>
-                        </div>
-                    </div>
-                    <form action="">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="info">
-                                    <label for="">Nombre:</label>
-                                    <input type="text">
-                                </div>
-                                <div class="info">
-                                    <label for="">C.C:</label>
-                                    <input type="number">
-                                </div>
-    
-                                <div class="info">
-                                    <label for="">Tipo de maquina:</label>
-                                    <input type="text">
-                                </div>
-    
-                                <div class="info">
-                                    <label for="">Marca: </label>
-                                    <input type="text">
-                                </div>
-                                    
-                                <div class="info">
-                                    <label for="">No.Serial</label>
-                                    <input type="text">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="info">
-                                    <label for="">Fecha de ingreso:</label>
-                                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                
+        <img src="../imagenes/logo.png" class="logo" height="70" alt="" />
+        <p class="logo">Automatización y mantenimiento</p>
+        <div class="container-info">
+            <div class="column1">
+                <h4>Datos personales</h4>
+                <div class="dates">
+                    <label for="identificacion" name="identificacion">N°identificacion:</label>
+                    <input type="number" name="identificacion">
+                </div>
+                <div class="dates">
+                    <label for="nombre" name="nombre">Nombre:</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="dates">
+                    <label for="apellido" name="apellido">Apellido:</label>
+                    <input type="text" name="apellido">
+                </div>
+                <h4>Informacion de maquina</h4>
+                <div class="dates">
+                    <label for="serial" name="serial">Serial:</label>
+                    <input type="number" name="serial">
+                </div>
+                <h4>Estado de llegada del equipo:</h4>
+                <div class="dates">
+                    <label for="fecha-ingreso" name="fecha-ingreso">Fecha de ingreso:</label>
+                    <input type="datetime-local" name="fecha-ingreso">
+                </div>
+                <div class="dates">
+                    <p>descripcion e imagen del estado en el que llego tu equipo:</p>
+                    <textarea name="estado-inicial" id="estado-inicial" cols="30" rows="10"></textarea>
+                    <img src="../imagenes/prueba.jpg" alt="imagen del estado en el que llego tu maquina">
                 </div>
             </div>
+            <div class="column2">
+                <h4>Actualizaciones de tu maquina</h4>
+                <div class="dates">
+                    <label for="fecha-actualizacion" name="fecha-actualizacion">Fecha de ingreso:</label>
+                    <input type="datetime-local" name="fecha-actualizacion">
+                </div>
+                <div class="dates">
+                    <p>descripcion e imagen de las ultimas actulizaciones que se le han hecho a tu equipo:</p>
+                    <textarea name="estado-inicial" id="estado-inicial" cols="30" rows="10"></textarea>
+                    <img src="../imagenes/prueba.jpg" alt="imagen de actualizaciones de tu equipo">
+                </div>
+                <h4>Estado final de tu equipo</h4>
+                <div class="dates">
+                    <label for="fecha-salida" name="fecha-salida">Fecha de salida:</label>
+                    <input type="datetime-local" name="fecha-salida">
+                </div>
+                <div class="dates">
+                    <p>descripcion e imagen del estado final de tu maquina:</p>
+                    <textarea name="estado-inicial" id="estado-inicial" cols="30" rows="10"></textarea>
+                    <img src="../imagenes/prueba.jpg" alt="imagen de actualizaciones de tu equipo">
+                </div>
+            </div>    
         </div>
+        <button class="imprimir">Imprimir</button>
     </div>
 </body>
 </html>
