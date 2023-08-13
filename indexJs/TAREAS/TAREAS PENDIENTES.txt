@@ -1,0 +1,64 @@
+ Falta:
+
+ DANIEL MORENO
+Catalogo videos (Daniel Moreno- Rios) (js-php)
+
+funcionalidad de busqueda (Daniel Moreno-rios) (js-php)
+
+Agregar videos(Daniel Moreno- Rios) (js-php)
+
+RIOS
+
+Boton para eliminar repuestos (Rios) (php)
+
+funcionalidad al perfil del administrador (Rios) (php)
+
+Catalogo videos (Daniel Moreno- Rios) (php-js)
+
+funcionalidad e busqueda (Daniel Moreno-rios)(php-js)
+
+Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan-Jersson)
+
+Funcionalidad de historial de orden de servicio (Rios)(php-js)
+
+Agregar videos(Daniel Moreno- Rios) (php-js)
+
+La funcionalidad de olvidar contraseña (Daniel Mendoza) (js-php)
+
+asignado con anterioridad una vez se haya registrado su maquina. (Rios-Daniel Mendoza)
+
+
+
+JERSSON
+
+El apartado de VER MÁS en catálogo videos y repuestos (Jersson) 
+
+Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan-Jersson)
+
+ALLAN
+
+hosting para subir la pagina web a internet (Allan)
+
+funcionalidad del footer  de las redes sociales, Whatsapp , facebook, gmail (Allan) (html-css)
+
+paginacion de catalogo de respuesto y videos (Allan) (html-js)
+
+Funcionalidad de la factura de la maquina del cliente "información maquina" (Rios-Allan- Jersson) (html-css-php)
+ 
+
+DANIEL MENDOZA 
+
+
+La funcionalidad de olvidar contraseña (Daniel Mendoza) (js-php)
+
+Funcionalidad de seguimiento de maquina por parte del cliente. El cliente debe de iniciar sesión, para eso tiene que iniciar con su numero de documento y código asignado con anterioridad una vez se haya registrado su maquina. (Rios-Daniel Mendoza)
+
+ TODOS
+
+
+Presentacion general de pitch (TODOS-DISPOSNER POR LOS MENOS MEDIO DIA PARA ESTAR DE ACUERDO)LUNES O MARTES PARA TENER MAS TIEMPO
+
+
+
+
+

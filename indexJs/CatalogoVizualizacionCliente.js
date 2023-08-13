@@ -1,3 +1,4 @@
+//barra de navegacionn estatica
 window.onscroll = function() {
     var nav = document.querySelector('.nav');
     if (window.pageYOffset > 0) {
@@ -8,11 +9,9 @@ window.onscroll = function() {
 };
 
 
-
+//clonar repuesto 
 
 getRepuestos();
-
-
 
 function listado (repuestos){
 
@@ -47,7 +46,7 @@ for (let i = 0 ; i < repuestos.length; i++) {
 };
 }
 
-
+//pedir el repuesto en php y sql, por medio de fetch
 
 function getRepuestos() {
   // URL del archivo PHP que devolverá los registros
