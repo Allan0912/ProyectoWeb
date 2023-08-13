@@ -42,3 +42,29 @@ function createPaginationButtons () {
 
 showPage(1);
 createPaginationButtons();
+
+//buscador de elementos por filtro
+
+document.addEventListener("keyup", e => {
+    if (e.target.matches('#buscador')) {
+      const inputValue = e.target.value.toLowerCase();
+  
+      document.querySelectorAll("#video-original").forEach(videoo => {
+        const elementText = videoo.textContent.toLowerCase();
+  
+        if (elementText.includes(inputValue)) {
+          videoo.style.display = 'block';
+        } else {
+          videoo.style.display = 'none';
+        }
+      });
+    }
+  });
+  
+  document.querySelector('#buscador').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+  
+    }
+  });
+  

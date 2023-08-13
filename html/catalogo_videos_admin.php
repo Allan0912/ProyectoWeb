@@ -79,8 +79,8 @@
            </li>
           </ul>
           <form class="d-flex ms-1 mb-2 mx-4">
-            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
+              <input  id="buscador" class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
           </form>
         </div>
       </div>
