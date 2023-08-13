@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family:sans-serif;
-    height: 110vh;
+    height: 100vh;
     object-fit: contain;
     background-image: url(../imagenes/el-trabajo-de-soldador-2-1.jpg);
     background-repeat: no-repeat;
@@ -18,16 +18,16 @@ body{
 
 .formulario{
     position: absolute;
-    top: 55%;
+    top: 62%;
     left: 50%;
     transform: translate(20%, -50%);
     width: 450px;
-    background-color: rgba(116, 111, 111, 0.404);
+    background-color: rgba(0, 0, 0, 0.63);
     box-shadow: 14px 13px 10px 3px;
     -webkit-box-shadow: 14px 13px 10px 3px;
     -moz-box-shadow: 14px 13px 10px 3px;
     border-radius: 30px;
-    height: 800px;
+    height: 760px;
 }
 
 .formulario h1{
@@ -57,6 +57,7 @@ form .rellenar{
     border: none;
     background: none;
     outline: none;
+    color: white;
 }
 
 
@@ -123,21 +124,6 @@ input:active input:focus{
     color: #ffffff;
 }
 
-@media screen and (max-width: 1000px) {
-    .formulario{
-            transform: translate(-50%, -50%);
-
-  }
-
-}
-
-@media screen and (max-width: 1200px) {
-    .formulario{
-            transform: translate(-50%, -50%);
-
-  }
-
-}
 
 p{
     color: yellow;
@@ -146,33 +132,6 @@ p{
 p img{
     margin-top: 5px;
 }
-/*:root{
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);;
-}
-*/
-
-/*.formulario h1::before{
-    content: "";
-    display: block;
-    background: rgba(24, 34, 172, 0.452);
-    width: 450px;
-    height: 50px;
-    position: absolute;
-    z-index: -1;
-    clip-path: var(--clippy);
-    transition: clip-path 2s;
-
-}
-
-
-.formulario h1:hover::before{
-    clip-path: polygon(88% 0, 0 0, 0 100%, 100% 100%);
-    border: solid white 1px;
-}
-
-
-
-}*/
 
 h1{
     transition: 1s;
@@ -199,3 +158,23 @@ input[type="radio"]{
     width: 20px;
     height: 20px;
 }
+
+
+@media screen and (max-width: 1000px) {
+    body{
+        height: 120vh;
+    }
+    .formulario{
+            transform: translate(-50%, -50%);
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .formulario{
+            transform: translate(-50%, -50%);
+
+  }
+
+}
+

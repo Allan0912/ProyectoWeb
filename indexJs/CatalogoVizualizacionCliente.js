@@ -21,6 +21,7 @@ var contenedor = document.getElementById('contenedor-repuestos');
 
 var original = document.getElementById("repuesto-original");
 
+
 for (let i = 0 ; i < repuestos.length; i++) {
 
   var nuevorepuesto = original.cloneNode(true);
@@ -42,8 +43,8 @@ for (let i = 0 ; i < repuestos.length; i++) {
   nuevorepuesto.style["display"]= "block";
 
   contenedor.appendChild(nuevorepuesto);
-  
 };
+  
 }
 
 //pedir el repuesto en php y sql, por medio de fetch
@@ -68,6 +69,7 @@ function getRepuestos() {
 const itemsPerPage = 10
 const items = document.querySelectorAll('#repuesto-original')
 const paginationContainer = document.getElementById('paginationList')
+console.log('repuestos: ',items)
 
 function showPage(pageNumber){
   const startIndex = (pageNumber - 1) * itemsPerPage;
