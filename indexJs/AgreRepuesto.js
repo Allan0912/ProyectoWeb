@@ -1,15 +1,4 @@
-//var repuestos = [];
-
-/*document.getElementById("newrepuesto").addEventListener("click", function() {
-    const repuestoInput = document.getElementById("otro");
-    const otrovalue = repuestoInput.value;
-
-    repuestos.push(otrovalue);
-    repuestoInput.value = "";
-
-    console.log(repuestos);
-});
-*/
+//agrega los valores de titulo, img y descripcion a los nuevos div
 
 var repuestos ={};
 

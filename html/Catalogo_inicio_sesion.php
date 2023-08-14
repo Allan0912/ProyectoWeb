@@ -95,8 +95,8 @@ if ($varsesion == null || $varsesion = '') {
         </ul>
 
         <form class="d-flex ms-1 mb-2 mx-4">
-          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
+        <input  id="buscador" class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
         </form>
       </div>
     </div>
@@ -105,8 +105,9 @@ if ($varsesion == null || $varsesion = '') {
 
 
   <!--Se muestran las imagenes o videos al cliente y al administrador-->
-  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly">
-    <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2">
+
+  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
+    <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2" style="display: none;" id="repuesto-original">
       <figure>
         <h5 class="mt-3">TITULO</h5>
         <img class="repuesto mt-3" src="../imagenes/prueba.jpg" height="160" alt="">
@@ -152,6 +153,8 @@ if ($varsesion == null || $varsesion = '') {
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="../indexJs/CatalogoVizualizacionCliente.js" ></script>
+  <script src="../indexJs/buscador_catalogo_admin.js" ></script>
 </body>
 
 </html>

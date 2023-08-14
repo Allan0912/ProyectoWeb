@@ -42,7 +42,7 @@
             <li><a class="nav-link" href="../html/Perfil_mostrar_cliente.php" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
           </ul> 
           <form class="d-flex ms-4">
-              <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+              <input  id="buscador" class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
           </form>
         </div>     

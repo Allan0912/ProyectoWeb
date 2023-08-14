@@ -3,7 +3,6 @@
  DANIEL MORENO
 Catalogo videos (Daniel Moreno- Rios) (js-php)
 
-funcionalidad de busqueda (Daniel Moreno-rios) (js-php)
 
 Agregar videos(Daniel Moreno- Rios) (js-php)
 

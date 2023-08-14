@@ -36,6 +36,27 @@ for (let i = 0; i < tutoriales.length; i++) {
   console.log(tutoriales[i].video);
 }
 
+//buscador por filtros
 
+document.addEventListener("keyup", e => {
+  if (e.target.matches('#buscador')) {
+    const inputValue = e.target.value.toLowerCase();
 
+    document.querySelectorAll("#video-original").forEach(videoo => {
+      const elementText = videoo.textContent.toLowerCase();
 
+      if (elementText.includes(inputValue)) {
+        videoo.style.display = 'block';
+      } else {
+        videoo.style.display = 'none';
+      }
+    });
+  }
+});
+
+document.querySelector('#buscador').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+
+  }
+});
