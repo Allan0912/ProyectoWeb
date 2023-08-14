@@ -78,11 +78,12 @@ span{
 
 .repuesto1{
     background-color:rgba(207, 207, 9, 0);
-    height: 330px;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .ver{
@@ -142,4 +143,29 @@ span{
 
 #icon_user{
     font-size: 40px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+#eliminar, #editar{
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+#eliminar{
+    color: red;
+}
+
+#eliminar:active{
+    color:  rgb(44, 44, 105);
+}
+
+#editar{
+    color: rgb(255, 166, 0);
+}
+
+#editar:active{
+    color:  rgb(44, 44, 105);
 }
