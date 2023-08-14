@@ -38,8 +38,6 @@ ALLAN
 
 hosting para subir la pagina web a internet (Allan)
 
-funcionalidad del footer  de las redes sociales, Whatsapp , facebook, gmail (Allan) (html-css)
-
 paginacion de catalogo de respuesto y videos (Allan) (html-js)
 
 
