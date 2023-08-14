@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../css/informacion_maquina_cliente.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
+<body id="body">
     <div class="container">
         <img src="../imagenes/logo.png" class="logo" height="70" alt="" />
         <p class="logo">Automatización y mantenimiento</p>
-        <div class="container-info">
+        <div class="container-info" id="container-info">
             <div class="column1">
                 <h4>Datos personales</h4>
                 <div class="dates">
@@ -66,7 +66,13 @@
                 </div>
             </div>    
         </div>
-        <button class="imprimir">Imprimir</button>
+        <button class="imprimir"><a class="imprimir" href="../html/informacion_maquina_cliente_pdf.php">Imprimir</a></button>
     </div>
+    <!--
+   <script src="../indexJs/jspdf.min.js" type="module"></script>
+    <script src="../indexJs/informacion_maquina_cliente.js" type="module"></script>
+    -->
+
 </body>
 </html>
+

@@ -95,6 +95,9 @@
             <th class="text-center">Orden de servicio</th>
             <th>Editar</th>
             <th>Eliminar</th>
+            <th>Imprimir</th>
+
+      
           </tr>
         </thead>
         <tbody>
@@ -103,6 +106,8 @@
             <td id="orden_servicio">Nombre de la persona de la orden de servicio</td>
             <td id="editar"><i class='bx bx-edit-alt'   id="icon_editar"></i></td>
             <td id="eliminar"><i class='bx bx-message-square-x' id="icon_eliminar" ></i></td>
+            <td id="imprimir-orden"> <i class='bx bxs-printer' id="imprimir"></i></td>
+
           </tr>
         </tbody>
       </table>
