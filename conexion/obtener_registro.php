@@ -1,4 +1,5 @@
 <?php 
+header("Access-Control-Allow-Origin: *");
 include('conexion.php');
 
 $sql = "SELECT titulo, descripcion, img FROM producto";
