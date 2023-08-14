@@ -42,7 +42,6 @@ funcionalidad del footer  de las redes sociales, Whatsapp , facebook, gmail (All
 
 paginacion de catalogo de respuesto y videos (Allan) (html-js)
 
-funcionalidad de imprimir en el archivo "informacion de maquina"
 
 DANIEL MENDOZA 
 
