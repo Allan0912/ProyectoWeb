@@ -94,10 +94,9 @@
           <input type="text" placeholder="Escribe el titulo del video" id="titulo">
           <i class='bx bx-edit-alt' id="editar"></i>
           <div class="drop-area">
-            <h3>Agregar video</h3>
-            <video id="videopreview" height="300px"  ></video>
-            <button>Seleccionar video</button>
-            <input type="file" name="" id="input-file" hidden>
+            <h3>Agregar link del video</h3>
+            <!--<video id="videopreview" height="300px"></video>-->
+            <input type="text" id="link-video">
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">

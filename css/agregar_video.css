@@ -183,6 +183,26 @@
     border: solid 3px rgb(255, 166, 0);
 }
 
+#link-video{
+    width: 100%;
+    background-color:rgba(24, 24, 170, 0.767);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+#link-video:focus{
+    width: 80%;
+    background-color: #3b3b3b;
+    transition: .5s;
+    border-radius: 30px;
+
+}
 /* Media Queries*/
 
 /*pantallas pequeñas*/
