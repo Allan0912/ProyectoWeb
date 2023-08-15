@@ -106,6 +106,9 @@ th, td {
     height: 30px;
 }
 
+#imprimir{
+    color: rgb(34, 33, 33);
+}
 #icon_eliminar:hover{
     background-color: red;
     transition: .5s;

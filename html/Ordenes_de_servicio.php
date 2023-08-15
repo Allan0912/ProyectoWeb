@@ -100,6 +100,7 @@ include('../conexion/conexion.php');
           <th class="text-center">Orden de servicio</th>
           <th>Editar</th>
           <th>Eliminar</th>
+          <th>Imprimir</th>
         </tr>
       </thead>
       <tbody>
@@ -124,6 +125,9 @@ include('../conexion/conexion.php');
                 <i class='bx bx-message-square-x' id="icon_eliminar"></i>
               </a>
             </td>
+            <td><a href="">
+              <i class='bx bxs-printer' id="imprimir"></i>
+            </a></td>
           </tr>
         <?php } ?>
       </tbody>
