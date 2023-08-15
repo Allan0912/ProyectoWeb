@@ -30,15 +30,15 @@ function agregarVideo() {
 }
 
 
-input.addEventListener('change', e => {
-  var file = e.target.files[0];
-    var reader = new FileReader();
+//input.addEventListener('change', e => {
+  //var file = e.target.files[0];
+   // var reader = new FileReader();
 
-    reader.onload = function (event) {
-      var videoUrl = event.target.result;
-      document.getElementById('videopreview').src = event.target.result;
-      localStorage.setItem("videotmp", videoUrl);
-    };
+    //reader.onload = function (event) {
+     // var videoUrl = event.target.result;
+      //document.getElementById('videopreview').src = event.target.result;
+     // localStorage.setItem("videotmp", videoUrl);
+    //};
 
-    reader.readAsDataURL(file);
-});
+    //reader.readAsDataURL(file);
+//});

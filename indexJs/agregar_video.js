@@ -5,18 +5,18 @@ const input = dropArea.querySelector("#input-file");
 const Agregar = document.querySelectorAll(".imgAgregar")
 let files;
 
-button.addEventListener('click', e => {
-    input.click(); //LLama el input quiere decir al explorador de archivos 
-});
+//button.addEventListener('click', e => {
+  //  input.click(); //LLama el input quiere decir al explorador de archivos 
+//});
 
-input.addEventListener('change', e => {
+//input.addEventListener('change', e => {
     
-    files= this.files;
-    dropArea.classList.add("active");
+ //   files= this.files;
+   // dropArea.classList.add("active");
     //cada vez que cambie un archivo se colorea la zona y se aplica el drop-area. active de css
-    showFile(files);
-    dropArea.classList.remove('active')
-});
+   // showFile(files);
+    //dropArea.classList.remove('active')
+//});
 
 //mientras que haya elementos para arratrar se activara "dragover"
 dropArea.addEventListener("dragover", (e) =>{

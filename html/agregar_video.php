@@ -88,20 +88,20 @@
 
 
     <!------------Apartado para agregar---------------->
-  <form action="">
+  <form action="http://localhost/proyecto/conexion/Agregar_video.php" method="post" >
     <div class="row mx-4">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-2">
-          <input type="text" placeholder="Escribe el titulo del video" id="titulo">
+          <input required autocomplete="off" type="text" placeholder="Escribe el titulo del video" id="titulo" name="titulo">
           <i class='bx bx-edit-alt' id="editar"></i>
           <div class="drop-area">
             <h3>Agregar link del video</h3>
             <!--<video id="videopreview" height="300px"></video>-->
-            <input type="text" id="link-video">
+            <input required autocomplete="off" type="text" id="link-video" name="link">
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5">
-          <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
-            <button onclick="agregarVideo()" class="agregar" id="publicar_repuesto">Publicar</button>
+          <textarea required autocomplete="off" name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Agregar una pequeña descripcion..."></textarea>
+            <button  type="submit" class="agregar" id="publicar_repuesto">Publicar</button>
             <button class="btn btn-success w-100">
               <div class="row">
                 <div class="col-2">
