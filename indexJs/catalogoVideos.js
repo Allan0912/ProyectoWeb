@@ -1,41 +1,3 @@
-window.onscroll = function() {
-    var nav = document.querySelector('.nav');
-    if (window.pageYOffset > 0) {
-      nav.classList.add('sticky');
-    } else {
-      nav.classList.remove('sticky');
-    }
-};
-
-
-
-var contenedor = document.getElementById('contenedor-videos');
-
-var tutoriales = JSON.parse(localStorage.getItem("tutorial"));
-
-var original = document.getElementById("video-original");
-
-for (let i = 0; i < tutoriales.length; i++) {
-
-  var nuevoVideo = original.cloneNode(true);
-
-  var titulo = nuevoVideo.querySelector('h5');
-
-  var parrafo = nuevoVideo.querySelector('p');
-
-  var videoElement = nuevoVideo.querySelector('video');
-
-  titulo.textContent = tutoriales[i].nombre;
-
-  parrafo.textContent = tutoriales[i].description;
-
-  videoElement.src = tutoriales[i].video;
-
-  contenedor.appendChild(nuevoVideo);
-  
-  console.log(tutoriales[i].video);
-}
-
 //buscador por filtros
 
 document.addEventListener("keyup", e => {
@@ -60,3 +22,67 @@ document.querySelector('#buscador').addEventListener('keydown', e => {
 
   }
 });
+
+
+
+
+//clonar repuesto 
+
+getvideo();
+
+function listado (video){
+
+console.log(video);
+  
+var contenedor = document.getElementById('contenedor-videos');
+
+var original = document.getElementById("video-original");
+
+
+for (let i = 0 ; i < video.length; i++) {
+
+  var nuevideo = original.cloneNode(true);
+
+  var titulo = nuevideo.querySelector('h5');
+
+  var parrafo = nuevideo.querySelector('p');
+
+  var videoo = nuevideo.querySelector ('iframe')
+
+  titulo.textContent = video[i].titulo;
+
+  parrafo.textContent = video[i].descripcion;
+
+  videoo.src = video[i].video_link; 
+
+
+  //var imagenbase64 = video [i].imagen_base64;
+
+  //img.src = `data:image/jpeg;base64,${imagenbase64}`;
+
+  nuevideo.style["display"]= "block";
+  
+
+
+  contenedor.appendChild(nuevideo);
+}; 
+}
+
+//pedir el repuesto en php y sql, por medio de fetch
+
+function getvideo() {
+  // URL del archivo PHP que devolverá los registros
+  const url = 'http://localhost/proyecto/conexion/obtener_video.php';
+
+  // Realizar la petición GET
+  fetch(url)
+  .then(response => response.json())
+  .then(data => {
+      listado(data);
+  })
+  .catch(error => {
+      console.error('Error al hacer la petición:', error);
+  });
+}
+
+

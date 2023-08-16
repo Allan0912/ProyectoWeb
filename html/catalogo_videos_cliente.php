@@ -54,93 +54,8 @@
         <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
           <figure>
             <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="../html/visualizacion_videos_cliente .php">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video2.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video2.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video3.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video3.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video2.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video2.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video3.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video3.mp4" type="video/mp4"  alt="">  
-            </video>
-            <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="#">Ver más</a>
-						</figcaption>           
-          </figure>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 video1 mt-5 mx-2" id="video-original">
-          <figure>
-            <h5 class="mt-3">Titulo del video</h5>
-            <video src="../imagenes/video1.mp4" height="300px" width="470" controls>
-              <source src="../imagenes/video1.mp4" type="video/mp4"  alt="">  
-            </video>
+            <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            
             <figcaption class="figure-caption mt-1">
               <p class="align-content-end ">Este es una pequeña descripcion del video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
 							<a class="ver mx-4" href="#">Ver más</a>
@@ -173,5 +88,6 @@
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../indexJs/catalogo_videos_cliente.js"></script>
+    <script src="../indexJs/catalogoVideos.js" ></script>
 </body>
 </html>
