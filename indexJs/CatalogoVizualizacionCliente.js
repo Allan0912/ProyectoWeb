@@ -1,3 +1,8 @@
+// codigo de paginacion
+const itemsPerPage = 3
+let items;
+const paginationContainer = document.getElementById('paginationList')
+
 //barra de navegacionn estatica
 window.onscroll = function() {
     var nav = document.querySelector('.nav');
@@ -11,40 +16,41 @@ window.onscroll = function() {
 
 //clonar repuesto 
 
-getRepuestos();
-
 function listado (repuestos){
 
-console.log(repuestos);
-  
-var contenedor = document.getElementById('contenedor-repuestos');
+  console.log(repuestos);
+    
+  var contenedor = document.getElementById('contenedor-repuestos');
 
-var original = document.getElementById("repuesto-original");
+  var original = document.getElementById("repuesto-original");
 
 
-for (let i = 0 ; i < repuestos.length; i++) {
+  for (let i = 0 ; i < repuestos.length; i++) {
 
-  var nuevorepuesto = original.cloneNode(true);
+    var nuevorepuesto = original.cloneNode(true);
 
-  var titulo = nuevorepuesto.querySelector('h5');
+    var titulo = nuevorepuesto.querySelector('h5');
 
-  var parrafo = nuevorepuesto.querySelector('p');
+    var parrafo = nuevorepuesto.querySelector('p');
 
-  var img = nuevorepuesto.querySelector ('img')
+    var img = nuevorepuesto.querySelector ('img')
 
-  titulo.textContent = repuestos[i].titulo;
+    titulo.textContent = repuestos[i].titulo;
 
-  parrafo.textContent = repuestos[i].descripcion;
+    parrafo.textContent = repuestos[i].descripcion;
 
-  var imagenbase64 = repuestos [i].imagen_base64;
+    var imagenbase64 = repuestos [i].imagen_base64;
 
-  img.src = `data:image/jpeg;base64,${imagenbase64}`;
+    img.src = `data:image/jpeg;base64,${imagenbase64}`;
 
-  nuevorepuesto.style["display"]= "block";
+    nuevorepuesto.style["display"]= "block";
 
-  contenedor.appendChild(nuevorepuesto);
-};
-  
+    contenedor.appendChild(nuevorepuesto);
+  };
+
+  items = document.querySelectorAll('#repuesto-original');
+  showPage(1);
+  createPaginationButtons();
 }
 
 //pedir el repuesto en php y sql, por medio de fetch
@@ -64,12 +70,6 @@ function getRepuestos() {
   });
 }
 
-
-// codigo de paginacion
-const itemsPerPage = 10
-const items = document.querySelectorAll('#repuesto-original')
-const paginationContainer = document.getElementById('paginationList')
-console.log('repuestos: ',items)
 
 function showPage(pageNumber){
   const startIndex = (pageNumber - 1) * itemsPerPage;
@@ -102,9 +102,6 @@ function createPaginationButtons (){
     paginationContainer.appendChild(li)
   }
 };
-  
-showPage(1)
-createPaginationButtons()
 
 
 //buscador por filtros
@@ -132,3 +129,4 @@ document.querySelector('#buscador').addEventListener('keydown', e => {
   }
 });
 
+getRepuestos();
