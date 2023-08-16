@@ -125,9 +125,11 @@ include('../conexion/conexion.php');
                 <i class='bx bx-message-square-x' id="icon_eliminar"></i>
               </a>
             </td>
-            <td><a href="">
-              <i class='bx bxs-printer' id="imprimir"></i>
-            </a></td>
+            <td>
+              <a href="../html/orden_de_servicio_pdf.php"?id=<?php echo $row['id_ORDEN']?>">
+                <i class='bx bxs-printer' id="imprimir"></i></>
+              </a>
+            </td>
           </tr>
         <?php } ?>
       </tbody>

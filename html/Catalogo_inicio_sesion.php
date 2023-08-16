@@ -78,6 +78,8 @@ if ($varsesion == null || $varsesion = '') {
             </a>
             <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
               <li><a class="dropdown-item" href="../html/registrar_Usuario.php" id="repuestos">Usuario</a></li>
+              <li><a class="dropdown-item" href="../html/Formulario_orden_de_servicio.php" id="contacto">Orden de servicio</a></li>
+
               <li><a class="dropdown-item" href="../html/Registrar_maquina.php" id="contacto">Maquina</a></li>
             </ul>
           </li>

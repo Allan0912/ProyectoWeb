@@ -1,3 +1,8 @@
+<?php
+
+ob_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,20 +51,21 @@
         </div>     
       </nav>
     <!----------------------APARTADO DE VISUALIZACION DE REPUESTOS----------------------------------->
-
-     <div  class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
+     
+    
+    <div  class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-evenly" id="contenedor-repuestos">
         <div class="col-sm-12 col-md-4 col-lg-3 repuesto1 mt-5 mx-2 " style="display: none;" id="repuesto-original">
           <figure>
-            <h5 class="mt-3">TITULO</h5>
-            <img class="repuesto mt-3" src="../imagenes/prueba.jpg" height="160" alt="imagen del repuesto">  
+            <h5 class="mt-3" for="titulo"></h5>
+            <img for="img-repuesto" class="repuesto mt-3" src="" height="160" alt="imagen del repuesto">  
             <figcaption class="figure-caption mt-1">
-              <p class="align-content-end ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil distinctio vel</p>
-							<a class="ver mx-4" href="../html/visualizacion_repuesto_cliente.php">Ver más</a>
+              <p for="descripcion" class="align-content-end "></p>
+							<a class="ver mx-4" href="../html/visualizacion_repuesto_cliente.php" onclick="mostrader_detaller('repuesto-original')">Ver más</a>
 						</figcaption>           
           </figure>
         </div>
-      </div>
-
+      </div
+     
       <!--------------------------------------PAGINACION----------------------------------------------->
       <div class="row" id="page">
         <div class="col-12" id="page">
@@ -88,3 +94,5 @@
  
 </body>
 </html>
+
+<?php
