@@ -34,7 +34,7 @@
           <form method="post" action="http://localhost/proyecto/conexion/registra_orden_servicio.php" id="form">
             <div class="rellenar">
               <input type="number" name="identificar" onblur="bucar_datos();" required id="identificar" autocomplete="off" />
-              <label for="rellenar">N° de identifiacion</label>
+              <label for="rellenar">N° de identificacion</label>
             </div>
 
             <div class="rellenar" id="formulario2">

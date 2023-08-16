@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -14,6 +15,7 @@
 </head>
 
 <body>
+
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(44, 44, 105);">
     <div class="container-fluid">
       <img id="logo" src="../imagenes/logo.png" height="90px" alt="">
@@ -52,35 +54,33 @@
 
 
   <!-------------------------------------APARTADO AGREGAR------------------------------------->
-
-  <div class="row mx-4">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-4">
-      <div class="input_icon">
-        <p id="clave">se debe mostrar el titulo del repuesto</p>
+  
+    <div class="row mx-4" id=repuestos_ver>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 mt-4 " id="ver_mas">
+        <div class="input_icon">
+           <h5 id="clave">se debe mostrar el titulo del repuesto</h5>
+        </div>
+        <div class="drop-area">
+          <img src="../imagenes/prueba.jpg" class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
+          <input type="file" name="" id="input-file" hidden>
+        </div>
       </div>
-      <div class="drop-area">
-        <img src="../imagenes/prueba.jpg" class="imgAgregar" id="imgpreview" style="width: 400px;" alt="">
-        <input type="file" name="" id="input-file" hidden>
-      </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5" id="whatsapp">
-      <p name="" id="descripcion" cols="30" rows="10">Se debe mostrar descripcion </p>
-      <a href="https://wa.me/57?text=Quiero saber más de tu producto" target="_blank">
-        <button class="btn btn-success w-100">
-          <div class="row">
-            <div class="col-2">
-              <i class='bx bxl-whatsapp icon' id="icon"></i>
-            </div>
-            <div class="col-10">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-5" id="whatsapp">
+        <p name="" id="descripcion" cols="30" rows="10">agasbdfhsbbgs</p>
+        <a href="https://wa.me/57?text=Quiero saber más de tu producto" target="_blank">
+          <button class="btn btn-success w-100">
+            <div class="row">
+              <div class="col-2">
+                <i class='bx bxl-whatsapp icon' id="icon"></i>
+              </div>
+            <div div class="col-10">
               <h3>Whatsapp</h3>
             </div>
           </div>
         </button>
       </a>
-   
     </div>
-
   </div>
 
   </div>
@@ -89,9 +89,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <script src="../indexJs/AgreRepuesto.js"></script>
-  <script src="../indexJs/CatalogoVizualizacionCliente.js" ></script>
 
 </body>
-
 </html>
