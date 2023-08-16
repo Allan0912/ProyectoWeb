@@ -91,10 +91,24 @@ include('../conexion/conexion.php');
           </li>
         </ul>
 
-        <form class="d-flex ms-1 mb-2 mx-4">
-          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-warning" type="submit"><i class='bx bx-search'></i></button>
+        <form class="d-flex ms-1 mb-2 mx-4" method="get">
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search" name="busqueda" >
+          <button class="btn btn-outline-warning" type="submit"  name="enviar" ><i class='bx bx-search'></i></button>
         </form>
+        <?php
+        $where="";
+
+        if(isset($_GET['enviar'])){
+          $busqueda = $_GET['busqueda'];
+        
+        
+          if (isset($_GET['busqueda']))
+          {
+            $where="WHERE usuario.Documento LIKE'%".$busqueda."%' OR Nombre  LIKE'%".$busqueda."%'
+            OR Telefono  LIKE'%".$busqueda."%'";
+          }
+        } 
+        ?>
       </div>
     </div>
   </nav>
@@ -112,7 +126,7 @@ include('../conexion/conexion.php');
       </thead>
       <tbody>
         <?php
-        $consulta = "SELECT Documento, Nombre, Apellidos, Correo FROM usuario";
+        $consulta = "SELECT Documento, Nombre, Apellidos, Correo FROM usuario $where";
         $result_consul = mysqli_query($conexion, $consulta);
         while ($row = mysqli_fetch_assoc($result_consul)) { ?>
           <tr>
