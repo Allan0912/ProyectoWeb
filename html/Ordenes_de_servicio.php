@@ -30,7 +30,7 @@ include('../conexion/conexion.php');
               Videos
             </a>
             <ul class="dropdown-menu" aria-labelledby="contenido" style="background-color:rgb(44, 44, 105);">
-              <li><a class="dropdown-item" href="#" id="repuestos"">Repuestos</a></li> 
+              <li><a class="dropdown-item" href="#" id="repuestos">Repuestos</a></li> 
                       <li><hr class=" dropdown-divider bg-light"></li>
               <li><a class="dropdown-item" href="#" id="contacto">Contactanos aqui</a></li>
             </ul>
@@ -126,7 +126,7 @@ include('../conexion/conexion.php');
               </a>
             </td>
             <td>
-              <a href="../html/orden_de_servicio_pdf.php"?id=<?php echo $row['id_ORDEN']?>">
+              <a href="../html/orden_de_servicio_pdf.php?id=<?php echo $row['id_ORDEN']?>">
                 <i class='bx bxs-printer' id="imprimir"></i></>
               </a>
             </td>
