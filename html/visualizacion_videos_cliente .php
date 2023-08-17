@@ -40,7 +40,7 @@
         </ul>
       </div>
       <ul class="navbar-nav mb-2 mb-lg-3 ">
-        <li><a class="nav-link" href="../html/Perfil_mostrar_cliente.php" id="info">¿Quién soy?<i class='bx bx-user-circle' id="icon_user"></i></a></li>
+        <li><a class="nav-link" href="../html/Perfil_mostrar_cliente.php" id="info">¿Quienes somos??<i class='bx bx-user-circle' id="icon_user"></i></a></li>
       </ul> 
 
       <form class="d-flex justify-content-end mb-2 mx-4">

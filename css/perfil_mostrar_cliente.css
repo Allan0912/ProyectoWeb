@@ -84,14 +84,11 @@ body{
   right: 150px;
   border: none;
   background:none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 196, 0);
   font-weight: 800;
   outline: none;
 }
 
-.user-name::placeholder{
-  color: rgba(0, 0, 0, 0.5);
-}
 
 .socials {
   list-style: none;
@@ -140,7 +137,7 @@ body{
 #descripcion{
   padding: 20px;
   width: auto;
-  height: 10rem;
+  height: auto;
   font-size: 20px;
   resize: none;
   outline: none;
