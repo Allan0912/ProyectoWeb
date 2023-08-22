@@ -4,7 +4,7 @@ window.addEventListener('scroll', function(){
     nav.classList.toggle('bajar',window.scrollY>0)
 });
 
-const itemsPerPage = 4;
+/*const itemsPerPage = 4;
 const items = document.querySelectorAll('.video1');
 const paginationContainer = document.getElementById('paginationList');
 
@@ -42,7 +42,7 @@ function createPaginationButtons () {
 
 showPage(1);
 createPaginationButtons();
-
+*/
 //buscador de elementos por filtro
 
 document.addEventListener("keyup", e => {

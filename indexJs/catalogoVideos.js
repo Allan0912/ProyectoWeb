@@ -1,4 +1,7 @@
-//buscador por filtros
+const itemsPerPage = 2;
+let items;
+const paginationContainer = document.getElementById('paginationList');
+
 
 document.addEventListener("keyup", e => {
   if (e.target.matches('#buscador')) {
@@ -63,9 +66,12 @@ for (let i = 0 ; i < video.length; i++) {
   nuevideo.style["display"]= "block";
   
 
-
+  
   contenedor.appendChild(nuevideo);
-}; 
+  };  
+  items = document.querySelectorAll('.video1'); 
+  showPage(1);
+  createPaginationButtons();
 }
 
 //pedir el repuesto en php y sql, por medio de fetch
@@ -85,4 +91,38 @@ function getvideo() {
   });
 }
 
+
+
+
+function showPage(pageNumber) {
+    const startIndex = (pageNumber - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+
+    items.forEach((item, index) => {
+        if (index >= startIndex && index < endIndex) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    })
+};
+
+function createPaginationButtons () {
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+
+    for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.className= "page-link";
+        link.href= "#";
+        link.textContent = i;
+        li.appendChild(link);
+        li.className = "page-item";
+        li.addEventListener('click', (event) => {
+            event.preventDefault();
+            showPage(i);
+        });
+        paginationContainer.appendChild(li);
+    }
+};
 

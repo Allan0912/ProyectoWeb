@@ -63,14 +63,6 @@
           </figure>
         </div>
       </div>
-      
-      <div class="row" id="page">
-        <div class="col-12" id="page">
-          <nav aria-label="Page barra">
-            <ul class="pagination justify-content-center mt-4" id="paginationList" />
-          </nav>
-        </div>
-      </div>
     
       
       <!---------------------------------REDES SOCIALES----------------------------------------------------------------->
